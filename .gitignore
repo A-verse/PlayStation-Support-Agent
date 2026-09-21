@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+
+# Data and cache
+data/raw/*
+!data/raw/.gitkeep
+
+cache/*
+!cache/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging
+*.egg-info/
+
+# OS
+.DS_Store

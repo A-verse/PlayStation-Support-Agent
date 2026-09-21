@@ -1,0 +1,1882 @@
+[
+  {
+    "candidate_id": "cand_0000",
+    "customer_text": "@AskPlayStation And if not how can I fix this problem?",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0001",
+    "customer_text": "@AskPlayStation I need to change my password but I don\u2019t know the birthday linked to my account",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0002",
+    "customer_text": "@AskPlayStation Two of it. nw-31295-0 and ce-34878-0. Tried all suggested steps. No luck. I can get to PS store. But some times I can't connected to my profile with these errors",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0003",
+    "customer_text": "@AskPlayStation 4. Also, online support chat tells me I have no account, even though I'm already logged into my account.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0004",
+    "customer_text": "@AskPlayStation error code: ce-39896-5",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0005",
+    "customer_text": "@AskPlayStation You sent a link for playstation 4 I have a playstation 3",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0006",
+    "customer_text": "@AskPlayStation after turning on ps4, got a message about maintenance... how long should psn be down?",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0007",
+    "customer_text": "@AskPlayStation i cant login to psn at all and it keeps telling me that PSN is down ive restarted my ps4 5 times now. Any idea what might be wrong with it?",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0008",
+    "customer_text": "@AskPlayStation hi when are you guys going to put in the option to change notification location? It blocks my mini map on call of duty",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": true
+  },
+  {
+    "candidate_id": "cand_0009",
+    "customer_text": "@AskPlayStation I can't register PS account",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0010",
+    "customer_text": "@askplaystation playstation store gives me an error when I try and purchase ps plus. It says I am not eligible to purchase or download the content. What gives? I'm trying to give you my money!",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0011",
+    "customer_text": "@AskPlayStation my PS3 will not update or restore because the system software is broken but comes up with error I have official download upd",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0012",
+    "customer_text": "@AskPlayStation it was stuck on that safe mode loop so i initialized my ps4",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0013",
+    "customer_text": "@AskPlayStation Still Need help!!!! I can't connect on my PSN account due to the 2 step verification. I moved abroad and i changed my phone number so i can't get my code to confirm i'm me",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0014",
+    "customer_text": "@AskPlayStation Its us account",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0015",
+    "customer_text": "@AskPlayStation do I need to have my playstation on to record my shows on vue?",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0016",
+    "customer_text": "@AskPlayStation WS-37527-4 And yes, that was the first thing I tried.",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0017",
+    "customer_text": "@AskPlayStation I can\u2019t access the PS store?",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0018",
+    "customer_text": "@AskPlayStation deleted my psn account with 127+ games and extra content. My 3 year old psn name was in breach of contract. Therefore 3 years of my purchases are not valid and you owe me over \u00a31000. Please resolve this issue",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0019",
+    "customer_text": "@AskPlayStation Got a blue light of death on my PS4. Seems to be related to the HDMI port. Followed official ps guides but its still dead.",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0020",
+    "customer_text": "@AskPlayStation so my PlayStation 4 has been making a loud noise coming from the fans. Is there a way I can fix this or should I just buy nw",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0021",
+    "customer_text": "@AskPlayStation Sending in my ps4 for service. It's out of warranty. I can't find my purchase receipt.",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0022",
+    "customer_text": "@AskPlayStation I checked and havent had an email i tried to sign in on a new ps4 and it says its been banned it could be the paypal thing but not sure",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0023",
+    "customer_text": "@AskPlayStation hey um guys can i activate more than two accounts as primary. Because i have one account with the game, one with the dlc and another one with ps plus. But i want to be able to play this on one account.",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0024",
+    "customer_text": "@AskPlayStation I keep getting blocked off the live chat request..What's the problem? My PSN is planck-h",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0025",
+    "customer_text": "@AskPlayStation A refund",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0026",
+    "customer_text": "@AskPlayStation do i need a 4k HDMI cable to properly play the ps4 pro on a 4k tv? I cant get it to connect with a standard HDMI??",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0027",
+    "customer_text": "@AskPlayStation Thanks, can you transfer purchases from an account to another?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0028",
+    "customer_text": "@AskPlayStation i bought FUTpoints code(4600)i tried on psn but it says the prepaid card code you entered is incorrect or is no longer valid",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0029",
+    "customer_text": "@AskPlayStation Can you guys get my refund sorted by Black Friday? I can't find my old tweets. On my phone right now.",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0030",
+    "customer_text": "@AskPlayStation i bought a game not realizing it was upgrade to a game i have already had and played i am requesting a refund",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0031",
+    "customer_text": "@AskPlayStation I brought GT Sport when i redeemed the code i get The code you entered is inactive. please fix this",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0032",
+    "customer_text": "@AskPlayStation I have error code CE-34335-8 (Cannot access system storage) on my #ps4 outta nowhere.. Tried reinserting hdd, no difference. What else can you suggest to do to fix my problem? I dont wana have to buy a new hdd & I think my console is out of its warranty period....",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0033",
+    "customer_text": "@AskPlayStation I'm trying to get a refund on cod WWII help me...",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0034",
+    "customer_text": "@AskPlayStation the system won't let me deactivate all my previous systems and it's been 6 months",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0035",
+    "customer_text": "@AskPlayStation Ps3 doesnt have the option to start in safe mode and im having issues there as well",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0036",
+    "customer_text": "@AskPlayStation yes. tried to update online - failed at system storage check.. went into safe mode - tried again via usb download - failed again.",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0037",
+    "customer_text": "@AskPlayStation Hey about that .. my ps4 doesnt turn off when im not using it. It turns off while im playing so it has nothing to do with power saver",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0038",
+    "customer_text": "@AskPlayStation will you all help me beg @362998 to release #HollowKnight on #PS4 \ud83d\ude14\ud83d\udc4d",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": true
+  },
+  {
+    "candidate_id": "cand_0039",
+    "customer_text": "@AskPlayStation This does not work with me, because the game is European and the country is US",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0040",
+    "customer_text": "@AskPlayStation How do I download already redeemed codes. I bought BattleFront2 and I got pre order bonus. But I redeemed and I didn't get the content. when I try to redeem again it says already redeemed. Really hope you can help thanks.",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0041",
+    "customer_text": "@AskPlayStation Hello, I have a problem with the service PS now in my PC : I have 20 euros to supply my wallet PSN and I can't manage to pay a subscription PS now. Other method of payement it impossible (credit card). Can you help me ? Thanks. Your Sincerely",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0042",
+    "customer_text": "@AskPlayStation i have an account issue can u plz help\ud83d\ude22\ud83d\ude2d",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0043",
+    "customer_text": "@AskPlayStation I tried to preorder Okami HD. I got an error WC-4355-7, so I tried it again from the main profile. It still didn\u2019t work, but my credit card has been charged twice!",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0044",
+    "customer_text": "@AskPlayStation how\u2019s comes every time I fast forward on PlayStation vue after I press play it\u2019s to buffer",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0045",
+    "customer_text": "@AskPlayStation Well in that case, if I make an account with region of the PlayStation plus that I just bought, my games in the other account of different region wouldn't work right?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0046",
+    "customer_text": "@AskPlayStation Hi Im looking for a link to an agent for live chat , I never get a pop up window for it online ,and need a problem addressed",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0047",
+    "customer_text": "@AskPlayStation Ps4 Account",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0048",
+    "customer_text": "@AskPlayStation i keep getting (CE-34788-0) over and over. it wont let me off safe mode, and now update 5.1 doesn't work. what do i do",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0049",
+    "customer_text": "@AskPlayStation It does tell me a error code: (SU-41350-3)",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0050",
+    "customer_text": "@AskPlayStation safe mode #3 #4 won't repair corrupted file, what should I do?",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0051",
+    "customer_text": "@AskPlayStation servers down ?",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0052",
+    "customer_text": "@AskPlayStation Your servers wont recognize my username, while I'm trying to get into a live chat for a refund. Please help",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0053",
+    "customer_text": "@AskPlayStation CE-34878-0 fix your system my god. i cant even play a game without crashing 24/7",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0054",
+    "customer_text": "@130182 Do y'all have a patch to unpatch 1.05 seems it screwed a lot of people over smh @AskPlayStation #ErrorCode CE-34878-0 #NBA2k18",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0055",
+    "customer_text": "@AskPlayStation what makes a PS4 automatically eject a disc? Is there a way to fix this?",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0056",
+    "customer_text": "@AskPlayStation I can't do the update and I've tried EVERYTHING",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0057",
+    "customer_text": "@AskPlayStation my acc has been baned i cannot access my account mamagment. Will my automatic renewal turn off or will i continue to be charged?",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0058",
+    "customer_text": "@AskPlayStation my vue isn't working. I keep getting error code a_2bc-0. Please help",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0059",
+    "customer_text": "@AskPlayStation I just found out my mum reversed some charges. Is it possible to put monry back into the account to fix this?",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0060",
+    "customer_text": "@AskPlayStation Hi can you help please I have ps4 slim it's not getting on .I did everything I can't get on only blue light on 4 1sec then it's get off .",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0061",
+    "customer_text": "@AskPlayStation Ehm..what could be the course of this and how do i fix it?",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0062",
+    "customer_text": "@AskPlayStation I preordered a game and on release day I was given the wrong game. How do I fix this error I have invoices to back my claim?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0063",
+    "customer_text": "@AskPlayStation The new update has killed my husband's game...again. He gets a 303 error every time he tries to load a character. His is the primary account. Mine is the sub account, and it works fine. How do we fix this? (have already tried hard reboot, etc.P",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0064",
+    "customer_text": "@AskPlayStation My account gotten took can yall get it the gamer tag is TalibanKelo508",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0065",
+    "customer_text": "@AskPlayStation All set. Was an internet connection error. Thank you!",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0066",
+    "customer_text": "@AskPlayStation wtf on psn, overwatch is unplayabable",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0067",
+    "customer_text": "@AskPlayStation Issue's continue, tried to install system update, during that, the ps4 just turned off and won't turn on again",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0068",
+    "customer_text": "@AskPlayStation my PS4 account can not receive invitations to anything and it has been like this for a couple of months and I do not know how to fix this please help.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0069",
+    "customer_text": "@AskPlayStation why wont my keyboard and mouse work ? Ibe tried reconnecting it and turning ps4 off and on , still wont work.",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0070",
+    "customer_text": "@AskPlayStation So I have the blue/white light of death on my ps4, is that an HDMI isssue? I really need your help please, playstation.\ud83d\ude22",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0071",
+    "customer_text": "@AskPlayStation also I'm trying to make a sub account but the code WC-36547 keeps popping up and I know my card works for a fact.",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0072",
+    "customer_text": "help me @AskPlayStation",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0073",
+    "customer_text": "For those of you that have Playstation Vue, how do you use it for streaming? Is the app built in to your Smart TV? Do you have to use a Roku/Amazon Fire TV Stick/Chromecast etc...",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0074",
+    "customer_text": "Idk who end it\u2019s on @AskPlayStation @178026 but I keep getting blue screened so fix it!!!!!!",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0075",
+    "customer_text": "@AskPlayStation how do I get a refund on a digital purchase?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0076",
+    "customer_text": "@AskPlayStation I am not able to login on PSN it says \u201cfailed\u201d Are the servers down or something?",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0077",
+    "customer_text": "@AskPlayStation That the game is still downloading, it doesnt actually stops at 4.599. Last time i checked it was at 4.850+ but it only refreshes when i res",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0078",
+    "customer_text": "@AskPlayStation is psn down",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0079",
+    "customer_text": "@AskPlayStation Hi. There is something wrong with my system and could use some help.",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0080",
+    "customer_text": "@AskPlayStation PSN account*",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0081",
+    "customer_text": "@AskPlayStation is gt sports servers down? Where can we keep up with gt sports server maintenance etc.",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0082",
+    "customer_text": "@AskPlayStation I need my account back for Playstation. I have the ID needed, my latest transactions and what I used to pay with my transact",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0083",
+    "customer_text": "@AskPlayStation @117014 Hey my ps4 won't connect to pan services and its bees updated",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0084",
+    "customer_text": "@AskPlayStation my ps4 randomly turns off while playing?",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0085",
+    "customer_text": "@AskPlayStation why does fortnite updates take so long to download and install please help! \ud83d\ude24\ud83d\ude29",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0086",
+    "customer_text": "@AskPlayStation Error Code: (CE-39896-5)",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0087",
+    "customer_text": "@AskPlayStation I upgraded my PlayStation Vue plan from Core to Ultra and I think it charged me for both this month! I need help ASAP. Thanks.",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0088",
+    "customer_text": "@AskPlayStation my controller just randomly froze then turned off, now its not turning on or charging",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0089",
+    "customer_text": "@AskPlayStation Has the NAT problem been fixed yet?",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0090",
+    "customer_text": "@AskPlayStation Im locked out of my psn account because i No longer Got the phone that is recieving codes When Im trying to log in",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0091",
+    "customer_text": "@AskPlayStation @149601 controllers won\u2019t connect to my ps4 i just tried 2 and it\u2019s not working!!",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0092",
+    "customer_text": "@AskPlayStation Can't activate vue",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0093",
+    "customer_text": "@AskPlayStation I am having trouble re downloading F1 2017 once it starts to download it pauses in the main menu. In the download screen it says ready to install but I can\u2019t open it. Anything I can do?",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0094",
+    "customer_text": "What is playstation vue",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0095",
+    "customer_text": "@AskPlayStation had to pay again for a pre order is there any way to get a refund on one of the payments?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0096",
+    "customer_text": "@AskPlayStation I need help with my account as I am unable to access live chat for further support.",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0097",
+    "customer_text": "@AskPlayStation I\u2019ve checked all my accounts. I have no record of a refund for SouthPark preorder. And yet it\u2019s not available in my library",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0098",
+    "customer_text": "@AskPlayStation I am trying to Buy something on the store and I already have money in my account and I can't buy anything it just says add a payment plan I already have money why add a plan",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0099",
+    "customer_text": "@AskPlayStation hi i cannot connect to psn and when I try to test my internet connection on my ps4 i get the error code CE-33984-7",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0100",
+    "customer_text": "@AskPlayStation my PS4 pro keeps going to a black screen when I turn on hdr support on my tv. How do I fix this? I\u2019ve tried a couple of trouble shooting videos but none of them worked",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0101",
+    "customer_text": "@AskPlayStation My PS4 has been on safe mode for the past day and I have a usb with an update file, but it isn\u2019t working.",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0102",
+    "customer_text": "@AskPlayStation I just got a PS4 pro from reg PS4 trying to play WW2 but it keeps cutting out I have a 4K hdmi and switched it out too what do I do? @ATVIAssist",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0103",
+    "customer_text": "@AskPlayStation where the heck are half my channels on Vue?? Cartoon Network is gone so I can't watch King of the Hill.",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0104",
+    "customer_text": "@AskPlayStation is anyone looking into my issue or no? Are you ignoring ?? Its been well over a week...",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0105",
+    "customer_text": "@AskPlayStation I did that. It was in my original tweet. Maybe try reading the entire thing?",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0106",
+    "customer_text": "@AskPlayStation i have an issue With one purchase i didnt make",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0107",
+    "customer_text": "@AskPlayStation every time I log in to my psn it says that an error has occurred for the last 2 days",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0108",
+    "customer_text": "@AskPlayStation i finally got the ps4 but now when im trying to enter my account info from my ps3 it requires a verification but the email im using no longer exists... i cant go on text support for the same reason so plz fix this",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0109",
+    "customer_text": "@AskPlayStation charge on account",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0110",
+    "customer_text": "@AskPlayStation I performed a full reset of the ps4 few hours ago and I reinstalled all the apps from scratch. Do I still need to go to safe mode ?",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0111",
+    "customer_text": "@AskPlayStation Actually Safe mode for me isnt working because I need an update file from a USB device that i have and it wont read the file and I need help",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0112",
+    "customer_text": "@AskPlayStation I was double charged. Was told to add the password req for purchases. Only entered in my password once but was still charged twice. Live chat will not route me to a rep. can't find a number to call. Help.",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0113",
+    "customer_text": "@AskPlayStation i\u2019m trying to reset my password for my account and every time i get the code you sent me and put it in it says error. help",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0114",
+    "customer_text": "@AskPlayStation Customer Support is closed for today when I called anyways when I tried to login in with my sub account it says that I need to accept the ToF however, the ToF is not popping up for my sub account.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0115",
+    "customer_text": "@AskPlayStation a mate of mine was using my account. Now that I've logged in back on my PlayStation I can't get it to confirm my license??",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0116",
+    "customer_text": "@AskPlayStation Yes I have option 7 in safe mode",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0117",
+    "customer_text": "@AskPlayStation I have tried that but I have had to reset it a few times due to the bad modem/internet service and it told me to reach out to support",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0118",
+    "customer_text": "@AskPlayStation My COD WWII Is not in my library but the transaction went through what's going on?",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0119",
+    "customer_text": "@AskPlayStation I\u2019m trying to sign into another account and every time I do I\ufe0ft says I have to reset my password after I enter my new password I\ufe0ft tells me the same thing",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0120",
+    "customer_text": "@AskPlayStation So my fortnite recently uninstalled itself and now when I go to download it, it gets stuck half way through an wont continue to download. Help?",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0121",
+    "customer_text": "@AskPlayStation Already did. We're connected online though Ethernet. Also our playstation shareplay bar shows strong connection, but still can't connect",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0122",
+    "customer_text": "@AskPlayStation you guys charged me without authorization",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0124",
+    "customer_text": "@AskPlayStation Whys the live chat down rn? my account got hacked and i need to talk to someone",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0125",
+    "customer_text": "@117014 I purchased an @115821 #Firestick to use #Vue - System won't let me log in. When will this be fixed?",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0126",
+    "customer_text": "@AskPlayStation When I saw this answer it was already working. THanks! Love PS Vue!",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0127",
+    "customer_text": "@AskPlayStation I've checked this, it tells me that my PSN ID does not exist. This is why I'm speaking to you on here.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0128",
+    "customer_text": "@AskPlayStation Error code (CE-33992-6)",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0129",
+    "customer_text": "@AskPlayStation My PS4 is in safe mode and it wants me to update it but it can't find the file on my USB storage device, what should i do?",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0130",
+    "customer_text": "@AskPlayStation Problem with a game. Can't contact you via live chat on your site. Please advise.",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0131",
+    "customer_text": "@AskPlayStation How do I report issues with GT Sport, I've lost career progress. [Driving School]. Even though it says I'm 1. in friends ranking with a time just past gold, I have no medal... If such issues aren't fixed I'd like my money back!",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0132",
+    "customer_text": "@AskPlayStation my PS4 controller won\u2019t sync to my console I have tried everything safe mode won\u2019t work because controller still cant sync",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0133",
+    "customer_text": "@AskPlayStation Ok now what",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0134",
+    "customer_text": "@AskPlayStation my need for speed games why is not downloading to my ps4 I buy ??",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0135",
+    "customer_text": "@AskPlayStation I am trying to get my new vr headset to work.The headset has a HDMI message with a X displayed. I can\u2019t get past this....",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0136",
+    "customer_text": "@AskPlayStation My PS4 was stolen last week. Any way I can track it? Or just go ahead and deactivate it?",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0137",
+    "customer_text": "@AskPlayStation Getting the WC-40382-7. I haven't changed anything from my details since last buy. Tried re-installing card. Did not work.",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0138",
+    "customer_text": "@AskPlayStation My Vue is showing the s2_2gz-0 error in a large black box on my screen. I have no way to dismiss the message and it\u2019s really annoying. It says \u201cThere\u2019s a problem. It\u2019s us. Not you.\u201d But my streaming is clear and I\u2019m not experiencing any issues. How can I clear it?",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0139",
+    "customer_text": "@AskPlayStation and password .",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0140",
+    "customer_text": "@AskPlayStation I need to get refund on PlayStation plus cuz I bought it twice in 10 days by mistake. __email__",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0141",
+    "customer_text": "@AskPlayStation is there a way to easily switch between profiles in PlayStation Vue?",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0142",
+    "customer_text": "@AskPlayStation I've tried all your troubleshooting ideas and neither of my controllers are connecting..please help",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0143",
+    "customer_text": "@AskPlayStation been hacked and lost about \u00a3400 in items on a game can u help?",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0144",
+    "customer_text": "@AskPlayStation It did not work",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0145",
+    "customer_text": "@AskPlayStation I trew away my old playstation, my account is still primair on that device. How can i fix this? So I can play on the new ps4",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0146",
+    "customer_text": "@AskPlayStation A free 14 day trial when I bought my new ps4",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0147",
+    "customer_text": "@AskPlayStation When i try to buy something on the store with my paypal it gives an error saying my information is incorrect , i've check multiple time.. its all fine.. how do i fix this? i've seen many people with the same problem but with no anwsers..",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0148",
+    "customer_text": "@AskPlayStation PS4 pro connected HDMI to tuner and then HDMI to TV. Have video but no sound. Reg PS4 same setup and I have sound. Help.",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0149",
+    "customer_text": "@AskPlayStation Hi, i just bought GT Sport, and I love it, but my sister can't play it when she plays on her account. Ps4 is set as primary.",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0150",
+    "customer_text": "@AskPlayStation No. It says it's downloading a new version, then install bar doesn't move, and then it eventually gets a pause symbol over it.",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0151",
+    "customer_text": "@AskPlayStation hey so I was playing nba 2k18 and got kicked off with an error code CE-34878-0 and now can\u2019t load my player please help!!",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0152",
+    "customer_text": "@AskPlayStation i am forces to reset my password but i can\u2019t verify my account, i forgot the information I put in. Help.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0153",
+    "customer_text": "@AskPlayStation I've been getting error code E-801809A8 PLEASE HELP UPDATE BRICKED MY SYSTEM",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0154",
+    "customer_text": "@AskPlayStation I'm unable to log in to my ps4 account, it says it's unavailable.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0155",
+    "customer_text": "@AskPlayStation I need help!!",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0156",
+    "customer_text": "@AskPlayStation on ps vue Cartoon Network won\u2019t pull up on live tv I tried on my Roku, Apple TV and iPhone",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0157",
+    "customer_text": "@AskPlayStation live chat would not recognize my PSN ID (AkkadianWolf). My left analogue stick has become faulty. When moving character at 10-11 o clock and 1-2 o' clock, the character stutters like crazy slowing them to a crawl. controller is nearly new and in good condition",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Network & Service Connectivity",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0158",
+    "customer_text": "@AskPlayStation Why is my PS4 getting such a slow connection speed? All other devices in my house are fine.",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0159",
+    "customer_text": "@AskPlayStation Tried to download a game but getting this error code CE-35694-7 anybody know what to do? Please and thank you",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0160",
+    "customer_text": "@AskPlayStation how to get out of safe mode. Game file did not work",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0161",
+    "customer_text": "@AskPlayStation trying to log onto PS4 Spotify and apparently my account is already linked? Please DM me!",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0162",
+    "customer_text": "If I buy a game away from home will it download of my ps4 is in Rest Mode? Asking for myself @117014 @AskPlayStation",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0163",
+    "customer_text": "@AskPlayStation I already try but, they ask me to try later and later.. Also, I try use PayPal but same there's error and they ask me to try later \ud83d\ude14",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0164",
+    "customer_text": "@AskPlayStation I pre purchased WW2 a long time ago but now i dont see it in my game library when logging into ps4. Help?",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0165",
+    "customer_text": "@AskPlayStation Having trouble with The Frozen Wilds. Will not install. Any advice? Tried deleting and re-downloading.",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Downloads & Digital Content",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0166",
+    "customer_text": "@AskPlayStation I'm from Italy and I have a problem on my PS4... \"Error CE-41881-2\". It started since last system update. Need your help \ud83d\ude4f",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0167",
+    "customer_text": "@AskPlayStation I forgot my date of birth for my account in PSN, could you please help me and fix this issue.!!",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0168",
+    "customer_text": "@AskPlayStation It's not happening as often as it was. At least 3 out of the last 5 times I've tried it has. The ps store and ui has also been pretty slow.",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0169",
+    "customer_text": "@AskPlayStation The error code is, SU-30627-8",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0170",
+    "customer_text": "@AskPlayStation is ps plus membership was available before ? When it come out ?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0171",
+    "customer_text": "@AskPlayStation why your request chat doesnt accept my online id . please help me. i dont use my ps4. because of my email adres is hacked. i bought a lot of games. i dont play anyone. @106761",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0172",
+    "customer_text": "@AskPlayStation how and where do I go to pay off a debt for a banned account? Thanks.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0173",
+    "customer_text": "@AskPlayStation need help signing back in my account forgot my password to my account and the date I put in also because I made the account a long time ago like 2015 or 2016 so can you help me",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0174",
+    "customer_text": "@AskPlayStation Yes it\u2019s saying I can\u2019t log into someone else\u2019s account. But it\u2019s my account",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0175",
+    "customer_text": "@AskPlayStation Still wasn't able to buy COD WW2, I was able to buy a yearly PS plus membership, something is definitely wrong with WW2 pre-order",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0176",
+    "customer_text": "@AskPlayStation Upon rebuilding the database, the issue persists. The controller still only works in safe mode.",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Console Troubleshooting (Safe Mode / General Fix)",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0177",
+    "customer_text": "@117014 my Vue is down",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0178",
+    "customer_text": "@AskPlayStation I sent you guys a email regarding a lost email for ps4 account please reply",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0179",
+    "customer_text": "@AskPlayStation Same error every time: CE-34878-0",
+    "true_intent": "Error Codes & Technical Faults",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Error Codes & Technical Faults",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0180",
+    "customer_text": "@AskPlayStation Please fix this.",
+    "true_intent": "Downloads & Digital Content",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0181",
+    "customer_text": "So @AskPlayStation @117014 my account seems to have been hacked. PSN is even saying my email address is wrong, how can I fix this",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0182",
+    "customer_text": "@AskPlayStation they said PlayStation network down is that true",
+    "true_intent": "Network & Service Connectivity",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": false,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0183",
+    "customer_text": "@AskPlayStation I\u2019m having hard time to change my PS4 profile cover. Is there another way to change it?",
+    "true_intent": "Unclear / Insufficient Information",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Unclear / Insufficient Information",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": true
+  },
+  {
+    "candidate_id": "cand_0184",
+    "customer_text": "@AskPlayStation I just bought The Taken King expansion thru PSstore, and it's given me empty files. Can you refund or give content please?",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0185",
+    "customer_text": "@AskPlayStation why cant i use chat? It says my account cannot be found but i am online with my ps3 now.",
+    "true_intent": "Account Access & Recovery",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Account Access & Recovery",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0186",
+    "customer_text": "@AskPlayStation Thank you for the link. I will try yet again and hopefully it will get through. I just wish Sony up their game to manage system interface better ! Time should not be wasted just to top up one's wallet \ud83d\ude2d",
+    "true_intent": "Purchases, Billing & Refunds",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Purchases, Billing & Refunds",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0187",
+    "customer_text": "Am i the only one who's ever had problems with my ps4 controller charging with the charging port on the controller being lose and won't charge? This is the original controller when i bought with it. @AskPlayStation \ud83c\udfae",
+    "true_intent": "Hardware / Device Malfunction",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "Hardware / Device Malfunction",
+    "correct_tfidf": true,
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "candidate_id": "cand_0188",
+    "customer_text": "@AskPlayStation I just tried that and it's still giving me the same answer.",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "majority_pred": "Unclear / Insufficient Information",
+    "tfidf_pred": "PlayStation Vue / Streaming Service",
+    "correct_tfidf": true,
+    "is_followup": true,
+    "out_of_scope": false
+  }
+]

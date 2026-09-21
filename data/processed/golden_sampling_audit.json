@@ -1,0 +1,42 @@
+{
+  "quotas": {
+    "Account Access & Recovery": 35,
+    "Purchases, Billing & Refunds": 25,
+    "Error Codes & Technical Faults": 20,
+    "Network & Service Connectivity": 18,
+    "Console Troubleshooting (Safe Mode / General Fix)": 18,
+    "Downloads & Digital Content": 15,
+    "PlayStation Vue / Streaming Service": 15,
+    "Hardware / Device Malfunction": 15,
+    "Unclear / Insufficient Information": 28
+  },
+  "seed": 20260914,
+  "pool_sizes": {
+    "Account Access & Recovery": 2811,
+    "Purchases, Billing & Refunds": 1980,
+    "Error Codes & Technical Faults": 918,
+    "Network & Service Connectivity": 528,
+    "Console Troubleshooting (Safe Mode / General Fix)": 255,
+    "Downloads & Digital Content": 808,
+    "PlayStation Vue / Streaming Service": 407,
+    "Hardware / Device Malfunction": 295,
+    "Unclear / Insufficient Information": 7993
+  },
+  "sampled_counts": {
+    "Account Access & Recovery": 35,
+    "Purchases, Billing & Refunds": 25,
+    "Error Codes & Technical Faults": 20,
+    "Network & Service Connectivity": 18,
+    "Console Troubleshooting (Safe Mode / General Fix)": 18,
+    "Downloads & Digital Content": 15,
+    "PlayStation Vue / Streaming Service": 15,
+    "Hardware / Device Malfunction": 15,
+    "Unclear / Insufficient Information": 28
+  },
+  "subquota_fractions": {
+    "ambiguous": 0.2,
+    "followup": 0.15,
+    "long": 0.1,
+    "short": 0.1
+  }
+}

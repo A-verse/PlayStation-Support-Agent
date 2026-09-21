@@ -1,0 +1,441 @@
+{
+  "golden_eval_size": 188,
+  "golden_excluded_from_evaluation": 1,
+  "intent_classification": {
+    "majority_baseline": {
+      "accuracy": 0.06382978723404255,
+      "macro_f1": 0.013333333333333332,
+      "weighted_f1": 0.007659574468085106,
+      "per_intent": {
+        "Account Access & Recovery": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 37.0
+        },
+        "Purchases, Billing & Refunds": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 30.0
+        },
+        "Error Codes & Technical Faults": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "Network & Service Connectivity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 17.0
+        },
+        "Console Troubleshooting (Safe Mode / General Fix)": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 15.0
+        },
+        "Downloads & Digital Content": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 16.0
+        },
+        "PlayStation Vue / Streaming Service": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 17.0
+        },
+        "Hardware / Device Malfunction": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 24.0
+        },
+        "Unclear / Insufficient Information": {
+          "precision": 0.06382978723404255,
+          "recall": 1.0,
+          "f1-score": 0.12,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          37
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Account Access & Recovery",
+        "Purchases, Billing & Refunds",
+        "Error Codes & Technical Faults",
+        "Network & Service Connectivity",
+        "Console Troubleshooting (Safe Mode / General Fix)",
+        "Downloads & Digital Content",
+        "PlayStation Vue / Streaming Service",
+        "Hardware / Device Malfunction",
+        "Unclear / Insufficient Information"
+      ],
+      "predicted_class": "Unclear / Insufficient Information"
+    },
+    "tfidf_logreg": {
+      "accuracy": 0.7606382978723404,
+      "macro_f1": 0.7597012599254539,
+      "weighted_f1": 0.7662703574829877,
+      "per_intent": {
+        "Account Access & Recovery": {
+          "precision": 0.7714285714285715,
+          "recall": 0.7297297297297297,
+          "f1-score": 0.75,
+          "support": 37.0
+        },
+        "Purchases, Billing & Refunds": {
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.7586206896551724,
+          "support": 30.0
+        },
+        "Error Codes & Technical Faults": {
+          "precision": 0.8260869565217391,
+          "recall": 0.95,
+          "f1-score": 0.8837209302325582,
+          "support": 20.0
+        },
+        "Network & Service Connectivity": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5882352941176471,
+          "f1-score": 0.6451612903225806,
+          "support": 17.0
+        },
+        "Console Troubleshooting (Safe Mode / General Fix)": {
+          "precision": 0.6111111111111112,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.6666666666666666,
+          "support": 15.0
+        },
+        "Downloads & Digital Content": {
+          "precision": 0.9230769230769231,
+          "recall": 0.75,
+          "f1-score": 0.8275862068965517,
+          "support": 16.0
+        },
+        "PlayStation Vue / Streaming Service": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 17.0
+        },
+        "Hardware / Device Malfunction": {
+          "precision": 0.9375,
+          "recall": 0.625,
+          "f1-score": 0.75,
+          "support": 24.0
+        },
+        "Unclear / Insufficient Information": {
+          "precision": 0.4166666666666667,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.5555555555555556,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          27,
+          3,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          2,
+          22,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          10,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          11,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          1,
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          15,
+          4
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Account Access & Recovery",
+        "Purchases, Billing & Refunds",
+        "Error Codes & Technical Faults",
+        "Network & Service Connectivity",
+        "Console Troubleshooting (Safe Mode / General Fix)",
+        "Downloads & Digital Content",
+        "PlayStation Vue / Streaming Service",
+        "Hardware / Device Malfunction",
+        "Unclear / Insufficient Information"
+      ]
+    },
+    "training_label_caveat": "weak/silver labels, not hand-labeled"
+  },
+  "retrieval": {
+    "automatic_proxy": {
+      "global": {
+        "recall@1": 0.5319148936170213,
+        "recall@3": 0.7978723404255319,
+        "recall@5": 0.8297872340425532
+      },
+      "intent_aware": {
+        "recall@1": 0.675531914893617,
+        "recall@3": 0.7712765957446809,
+        "recall@5": 0.776595744680851
+      }
+    },
+    "claude_judged_subset_n36": {
+      "manual_recall_at_1": {
+        "global": 0.472,
+        "intent_aware": 0.556
+      },
+      "manual_recall_at_3_binary_at_least_one_relevant": {
+        "global": 0.778,
+        "intent_aware": 0.778
+      },
+      "manual_relevant_density_in_top3": {
+        "global": 0.426,
+        "intent_aware": 0.435
+      },
+      "n": 36
+    },
+    "caveat": "proxy = same-intent-label match, not true relevance. Claude-judged subset is NOT independent human validation."
+  },
+  "pipeline_run": {
+    "evidence_failure_rate": 0.39361702127659576,
+    "response_safety_failure_rate": 0.4308510638297872,
+    "action_counts": {
+      "escalate": 55,
+      "auto_handle": 133
+    },
+    "reason_code_counts": {
+      "LOW_CLASSIFIER_CONFIDENCE": 53,
+      "SAFETY_CHECK_FALLBACK": 81,
+      "EXHAUSTED_TROUBLESHOOTING_SIGNAL": 10,
+      "HIGH_RISK_INTENT_SIGNAL": 29,
+      "FRUSTRATION_DETECTED": 12,
+      "INSUFFICIENT_EVIDENCE_ON_REAL_INTENT": 14
+    }
+  },
+  "escalation_vs_baselines": {
+    "always_auto_handle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.6329787234042553,
+      "tp": 0,
+      "fp": 0,
+      "fn": 69,
+      "tn": 119,
+      "false_escalation_rate": 0.0,
+      "false_auto_handle_rate": 0.3670212765957447
+    },
+    "always_escalate": {
+      "precision": 0.3670212765957447,
+      "recall": 1.0,
+      "f1": 0.5369649805447471,
+      "accuracy": 0.3670212765957447,
+      "tp": 69,
+      "fp": 119,
+      "fn": 0,
+      "tn": 0,
+      "false_escalation_rate": 0.6329787234042553,
+      "false_auto_handle_rate": 0.0
+    },
+    "escalation_engine": {
+      "precision": 0.6181818181818182,
+      "recall": 0.4927536231884058,
+      "f1": 0.5483870967741936,
+      "accuracy": 0.7021276595744681,
+      "tp": 34,
+      "fp": 21,
+      "fn": 35,
+      "tn": 98,
+      "false_escalation_rate": 0.38181818181818183,
+      "false_auto_handle_rate": 0.2631578947368421
+    },
+    "caveat": "ground truth (golden should_escalate) is LLM-reviewed, pending human sign-off -- not human-verified ground truth"
+  },
+  "llm_as_judge": "NOT RUN -- no ANTHROPIC_API_KEY available",
+  "human_review_agreement": "NOT AVAILABLE -- no independent human annotations exist yet"
+}

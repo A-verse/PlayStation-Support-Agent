@@ -1,0 +1,596 @@
+[
+  {
+    "cluster": 0,
+    "size": 480,
+    "pct": 0.030009377930603313,
+    "top_terms": [
+      "vue",
+      "playstation vue",
+      "ps vue",
+      "playstation",
+      "ps",
+      "watch",
+      "tv",
+      "roku",
+      "sports",
+      "app",
+      "channels",
+      "vue app"
+    ],
+    "examples": [
+      "@117014 my Vue is down",
+      "@AskPlayStation why can't I find Superstore on vue? :/",
+      "PlayStation Vue might be the movement",
+      "What is playstation vue",
+      "@AskPlayStation Any ETA for PS Vue being up again?",
+      "@120291 Yet again @117014 Vue will not be carrying the @15636 game on FSOH. There's not even a conflict with Cavs. WHY?!?"
+    ]
+  },
+  {
+    "cluster": 1,
+    "size": 425,
+    "pct": 0.026570803376055017,
+    "top_terms": [
+      "password",
+      "reset",
+      "reset password",
+      "birth",
+      "date",
+      "date birth",
+      "forgot",
+      "account",
+      "forgot password",
+      "help",
+      "security",
+      "psn"
+    ],
+    "examples": [
+      "@AskPlayStation i forgot my date of birth how can i reset my password ???",
+      "@AskPlayStation i forgot my date of birth so i cant reset my password",
+      "@AskPlayStation Can you help me reset my password?",
+      "@AskPlayStation how do i reset my password",
+      "@AskPlayStation I forgot my password and I can't reset my password what do I do now",
+      "@AskPlayStation @185263 Not working guys. Unable to reset password"
+    ]
+  },
+  {
+    "cluster": 2,
+    "size": 222,
+    "pct": 0.013879337292904033,
+    "top_terms": [
+      "banned",
+      "account banned",
+      "account",
+      "got banned",
+      "got",
+      "banned account",
+      "reason",
+      "account got",
+      "email",
+      "know",
+      "ban",
+      "help"
+    ],
+    "examples": [
+      "@AskPlayStation why was the account dot1236 banned?",
+      "@AskPlayStation why my account banned",
+      "@AskPlayStation why my account was banned",
+      "@AskPlayStation My account is banned",
+      "@AskPlayStation why my account is banned?",
+      "@AskPlayStation how can i get my account back (it is banned i do not know why)"
+    ]
+  },
+  {
+    "cluster": 3,
+    "size": 575,
+    "pct": 0.035948733979368555,
+    "top_terms": [
+      "refund",
+      "game",
+      "bought",
+      "refund game",
+      "want",
+      "purchased",
+      "check following",
+      "want refund",
+      "following",
+      "like",
+      "request",
+      "refund info"
+    ],
+    "examples": [
+      "@AskPlayStation how do i get a refund.",
+      "@AskPlayStation how can I get a refund on pan",
+      "@AskPlayStation were would i go about a refund?",
+      "@AskPlayStation Anyway I can refund something",
+      "@AskPlayStation can i have a refund?",
+      "@AskPlayStation how do i refund?"
+    ]
+  },
+  {
+    "cluster": 4,
+    "size": 505,
+    "pct": 0.0315723663644889,
+    "top_terms": [
+      "getting",
+      "getting error",
+      "error",
+      "error code",
+      "code",
+      "message",
+      "code message",
+      "ce",
+      "help",
+      "message provide",
+      "issue",
+      "details issue"
+    ],
+    "examples": [
+      "@AskPlayStation why am I getting this error.",
+      "@AskPlayStation why do I keep getting this error",
+      "@AskPlayStation I keep on getting error code ce 348780",
+      "@AskPlayStation getting this error code for hours now. Any help???",
+      "@AskPlayStation Message error",
+      "@AskPlayStation i keep getting error code CE-32871-1 how do i fix it?"
+    ]
+  },
+  {
+    "cluster": 5,
+    "size": 769,
+    "pct": 0.04807752422632072,
+    "top_terms": [
+      "error",
+      "error code",
+      "code",
+      "message",
+      "error message",
+      "ce",
+      "message error",
+      "code ce",
+      "help",
+      "sorry",
+      "let",
+      "try"
+    ],
+    "examples": [
+      "@AskPlayStation what is this error code\ud83e\udd14\ud83e\udd14",
+      "@AskPlayStation why error code NE-210003ED",
+      "@AskPlayStation i have error code ce352875 how can i fix it",
+      "@AskPlayStation Normal PS4",
+      "@AskPlayStation there\u2019s no error code at all",
+      "@AskPlayStation Yes error code"
+    ]
+  },
+  {
+    "cluster": 6,
+    "size": 241,
+    "pct": 0.01506720850265708,
+    "top_terms": [
+      "change",
+      "change password",
+      "password",
+      "account",
+      "psn",
+      "change psn",
+      "want change",
+      "country",
+      "email",
+      "want",
+      "region",
+      "change country"
+    ],
+    "examples": [
+      "@AskPlayStation do I have to change my password?",
+      "@AskPlayStation Why do I have to change my password weekly? It;s pointless because I just change it back to the same password I want weekly??",
+      "@AskPlayStation Hi, Please how can i change my password?",
+      "@AskPlayStation I cant login to my account so I could change my password because they are telling me to change my password",
+      "@AskPlayStation what is this and how do I change it? Never had this problem before",
+      "@AskPlayStation is there anyway I can change my usertag for online purpose"
+    ]
+  },
+  {
+    "cluster": 7,
+    "size": 622,
+    "pct": 0.03888715223507346,
+    "top_terms": [
+      "download",
+      "game",
+      "trying download",
+      "help",
+      "store",
+      "update",
+      "download game",
+      "ps4",
+      "gb",
+      "fortnite",
+      "downloading",
+      "purchased"
+    ],
+    "examples": [
+      "@AskPlayStation the download keeps frezezing and going again and makes it a 1 hour download...",
+      "@AskPlayStation @117014 a 9 hour download is honestly unbelievable. What can I do to make this COD download faster??",
+      "@AskPlayStation I'm trying to download a game but the download is frozen,help.",
+      "@AskPlayStation i am trying to download fornite but the download is stuck on 4.737 GB",
+      "@AskPlayStation Can I get a reply?",
+      "@AskPlayStation I'm trying to download watch dogs 2 and it will download but when I try to open it it will not open and it will say it is paused but there is no download"
+    ]
+  },
+  {
+    "cluster": 8,
+    "size": 472,
+    "pct": 0.029509221631759924,
+    "top_terms": [
+      "problem",
+      "having problem",
+      "having",
+      "help",
+      "ps4",
+      "hi",
+      "problem ps4",
+      "playstation",
+      "hello",
+      "game",
+      "psn",
+      "hi problem"
+    ],
+    "examples": [
+      "@28504 what\u2019s the problem \ud83d\ude22\ud83d\ude22 @AskPlayStation",
+      "@AskPlayStation i have a problem",
+      "@AskPlayStation I have a problem.",
+      "@AskPlayStation sir what is the problem?",
+      "@AskPlayStation Help I have a irritating problem",
+      "@AskPlayStation Hi I have problem with LAN internet It disconnected evrytime but cable is connected Where is the problem ? You can see the video for problem Thanks"
+    ]
+  },
+  {
+    "cluster": 9,
+    "size": 275,
+    "pct": 0.017192872772741483,
+    "top_terms": [
+      "dm",
+      "follow twitter",
+      "send dm",
+      "twitter",
+      "send",
+      "follow",
+      "know send",
+      "twitter let",
+      "let know",
+      "know",
+      "instructions",
+      "dm instructions"
+    ],
+    "examples": [
+      "@AskPlayStation I forgot my email",
+      "@AskPlayStation I did send me the dm",
+      "@AskPlayStation Yes. You may. Thanks",
+      "@AskPlayStation Please Dm me",
+      "@AskPlayStation @760304 Help!!",
+      "@AskPlayStation Plz dm"
+    ]
+  },
+  {
+    "cluster": 10,
+    "size": 4400,
+    "pct": 0.27508596436386373,
+    "top_terms": [
+      "help",
+      "game",
+      "playstation",
+      "store",
+      "hi",
+      "psn",
+      "just",
+      "issue",
+      "try",
+      "tried",
+      "games",
+      "says"
+    ],
+    "examples": [
+      "@AskPlayStation what do I do now with it??",
+      "@AskPlayStation can I please get a PM",
+      "What is this!??? @123583 @AskPlayStation @117353 @149601",
+      "@AskPlayStation Necesito ayuda!!!",
+      "Necesito tu ayuda @AskPlayStation",
+      "@AskPlayStation wat is this"
+    ]
+  },
+  {
+    "cluster": 11,
+    "size": 1537,
+    "pct": 0.09609252891528602,
+    "top_terms": [
+      "ps4",
+      "help",
+      "pro",
+      "ps4 pro",
+      "update",
+      "controller",
+      "turn",
+      "disc",
+      "games",
+      "won",
+      "play",
+      "tried"
+    ],
+    "examples": [
+      "@AskPlayStation how can I Regiater my ps4",
+      "@AskPlayStation playerunknown battlegrounds (PUBG) for ps4 please",
+      "@117014 @AskPlayStation @117013 #ps4",
+      "@AskPlayStation when I loaded my ps4 everything is green is this a trick? #HappyHallowen",
+      "@AskPlayStation Ps4. 2014",
+      "@AskPlayStation can an account be transferred from PS4 to PS4 pro, will games from when I downloaded from PS4 be on my account when I get a PS4 pro?"
+    ]
+  },
+  {
+    "cluster": 12,
+    "size": 483,
+    "pct": 0.030196936542669583,
+    "top_terms": [
+      "card",
+      "credit",
+      "credit card",
+      "paypal",
+      "buy",
+      "debit",
+      "store",
+      "invalid",
+      "valid",
+      "information",
+      "purchase",
+      "add"
+    ],
+    "examples": [
+      "@AskPlayStation what's wrong with your credit card system when I put my credit card in a keep on saying the number is invalid",
+      "@AskPlayStation Try to make a purchase on the store with credit card and PayPal says credit card information is invalid when it is Valid",
+      "@AskPlayStation why won\u2019t my credit card let me buy anything on it nothing is wrong on the card and it had money",
+      "@AskPlayStation I'm from Armenia, how can I add credit card (MasterCard, AMD) to my account, it says \"use valid credit card\"?",
+      "@AskPlayStation I have been trying to add my credit card.. but it give me the 'credit card invalid' error. Pls help!!!",
+      "@AskPlayStation Playstation will NOT accept my credit card anymore. I even tried a new debit card, same issue. The only service not working"
+    ]
+  },
+  {
+    "cluster": 13,
+    "size": 804,
+    "pct": 0.05026570803376055,
+    "top_terms": [
+      "connect",
+      "network",
+      "internet",
+      "psn",
+      "connection",
+      "playstation network",
+      "playstation",
+      "sign",
+      "ps4",
+      "power cycle",
+      "cycle",
+      "power"
+    ],
+    "examples": [
+      "Is the PlayStation Network down? I can't connect. @117014 @AskPlayStation",
+      "@AskPlayStation I've already read through that... I reset my router and managed my internet security settings to ensure my PS4 can connect. The network connectivity was working fine yesterday afternoon. My PS4 is connected to the internet. It just can't connect to the PlayStation network.",
+      "@AskPlayStation it\u2019s not that when I\ufe0f test me internet connection \u201cPlayStation Network Sign-In\u201d is the only one that says \u201cFailed\u201d",
+      "@AskPlayStation Done but now I cant connect to the server and can't sign in as I still can't connect to PSN(I have good internet connection)",
+      "@AskPlayStation alrighty let\u2019s try it.",
+      "@AskPlayStation still failed PlayStation network sign-in. Still can't connect"
+    ]
+  },
+  {
+    "cluster": 14,
+    "size": 486,
+    "pct": 0.030384495154735854,
+    "top_terms": [
+      "safe",
+      "safe mode",
+      "mode",
+      "default",
+      "default settings",
+      "settings",
+      "restore default",
+      "restore",
+      "mode select",
+      "select",
+      "ps4",
+      "option"
+    ],
+    "examples": [
+      "@AskPlayStation how do i get out of safe mode?",
+      "@AskPlayStation Restore default settings still did not work when I went into safe mode... still have WS-37432-9",
+      "@AskPlayStation Thank you! That seems to have done the trick.",
+      "@AskPlayStation Can't get of safe mode to change Internet router details",
+      "@AskPlayStation How do you get to safe mode",
+      "@AskPlayStation Ps3 doesnt have the option to start in safe mode and im having issues there as well"
+    ]
+  },
+  {
+    "cluster": 15,
+    "size": 501,
+    "pct": 0.03132228821506721,
+    "top_terms": [
+      "need help",
+      "help",
+      "need",
+      "account",
+      "password",
+      "dm",
+      "help resetting",
+      "help account",
+      "playstation",
+      "hi",
+      "hi need",
+      "resetting"
+    ],
+    "examples": [
+      "@AskPlayStation I need help!!",
+      "@117013 @117014 @AskPlayStation yoooo I need help please",
+      "- @AskPlayStation I need help!",
+      "@AskPlayStation I need help please",
+      "@AskPlayStation need help",
+      "@AskPlayStation I need your help!\ud83e\udd24"
+    ]
+  },
+  {
+    "cluster": 16,
+    "size": 1336,
+    "pct": 0.0835261019068459,
+    "top_terms": [
+      "account",
+      "psn",
+      "psn account",
+      "help",
+      "hacked",
+      "sign",
+      "log",
+      "ps4",
+      "sub",
+      "sub account",
+      "hi",
+      "account ps4"
+    ],
+    "examples": [
+      "@AskPlayStation I can't get into my account",
+      "@AskPlayStation how can I get my scammed account back from the scammer",
+      "@AskPlayStation i cant get in my psn account",
+      "@AskPlayStation Hello My Account (Rexo_HD2000)Was hacking from the Account (STW_Basti-15-GER) PLEAS HELP ME TO GET MY ACCOUNT BACK",
+      "@AskPlayStation I have a psn account that has been hacked I know all the info for it , please help the account Is very important",
+      "@AskPlayStation I am locked out of my PSN account and I have no other devices signed into the account, this is because of the TSV. HELP!"
+    ]
+  },
+  {
+    "cluster": 17,
+    "size": 493,
+    "pct": 0.03082213191622382,
+    "top_terms": [
+      "email",
+      "account",
+      "password",
+      "email address",
+      "changed",
+      "address",
+      "psn",
+      "help",
+      "changed email",
+      "email password",
+      "got",
+      "psn account"
+    ],
+    "examples": [
+      "@AskPlayStation my email was hackrd and my psn account too what do i do to get it back",
+      "@AskPlayStation My account was hacked while I was out as my email address sent me an email saying that my email for my account was successfully changed so can I have some help please.",
+      "@AskPlayStation the email I have to do it to change the password on is my brother email but he in college I don't know his password for his email address can I send it to my own email?",
+      "@AskPlayStation can I change my ps3 email to my ps4 email and information?",
+      "@AskPlayStation I am not getting an answer to my problem...can you please email me how to cantact you by email",
+      "@AskPlayStation Someone just changed my email and password for my account i got an email"
+    ]
+  },
+  {
+    "cluster": 18,
+    "size": 345,
+    "pct": 0.021569240387621133,
+    "top_terms": [
+      "plus",
+      "ps plus",
+      "ps",
+      "playstation plus",
+      "subscription",
+      "playstation",
+      "account",
+      "membership",
+      "plus subscription",
+      "month",
+      "plus membership",
+      "help"
+    ],
+    "examples": [
+      "@AskPlayStation wo I cant get into the store to take advantage of ps plus dealss help",
+      "@167013 @AskPlayStation Can i transfer the ps plus on another account on same ps4?",
+      "@AskPlayStation can you help with a ps plus renewal?",
+      "@AskPlayStation can I have my account on 2 ps4 with ps plus",
+      "@AskPlayStation My other accounts work, my main primary acct that I bought ps plus on doesnt work. My case # is 22150911.",
+      "@AskPlayStation i renewed it last Saturday"
+    ]
+  },
+  {
+    "cluster": 19,
+    "size": 447,
+    "pct": 0.027946233197874336,
+    "top_terms": [
+      "fix",
+      "ps4",
+      "issue",
+      "way fix",
+      "error",
+      "update",
+      "playstation",
+      "game",
+      "just",
+      "ve",
+      "way",
+      "hi"
+    ],
+    "examples": [
+      "@AskPlayStation how can I fix this",
+      "@117014 @AskPlayStation How to fix this.",
+      "@AskPlayStation Ehm..what could be the course of this and how do i fix it?",
+      "How do i fix this??? @AskPlayStation",
+      "@AskPlayStation how do I fix this",
+      "@AskPlayStation how do I fix a over heating ps4"
+    ]
+  },
+  {
+    "cluster": 20,
+    "size": 236,
+    "pct": 0.014754610815879962,
+    "top_terms": [
+      "fifa",
+      "points",
+      "fifa points",
+      "fifa 18",
+      "18",
+      "bought",
+      "bought fifa",
+      "help",
+      "plus",
+      "hi",
+      "1050",
+      "ps"
+    ],
+    "examples": [
+      "@AskPlayStation I have bought fifa points from the ps store, and i did not earn my fifa points in fifa. How can I contact you to get a refund or my fifa points?",
+      "@AskPlayStation hi I bought 1 year psn along with 1000 FIFA points for FIFA 18 but I still don't have the FIFa points",
+      "@AskPlayStation when I bought the icon edition of FIFA 18, I never received the 8000 FIFA points",
+      "@AskPlayStation i accidentaly bought fifa 15 fifa points thinking they were fifa 18\u00b4s fifa points in the playstation store, but I didnt receive them anywhere. NOT EVEN IN FIFA 15 (I think it was because I didnt have the same account at that FIFA.",
+      "Hello @AskPlayStation i just bought fifa points for 50 dollars, and my fifa points are not here. This is on fifa 18, pls help",
+      "@AskPlayStation The steps in the website did not work for me since its fifa points, i cannot \u201cdelete\u201d the fifa points. Is there some way i can chat for help ASAP?"
+    ]
+  },
+  {
+    "cluster": 21,
+    "size": 341,
+    "pct": 0.02131916223819944,
+    "top_terms": [
+      "chat",
+      "live",
+      "live chat",
+      "support",
+      "chat support",
+      "help",
+      "account",
+      "psn",
+      "id",
+      "contact",
+      "trying",
+      "online"
+    ],
+    "examples": [
+      "@AskPlayStation Is live chat down?",
+      "@AskPlayStation Is the support Live Chat down?",
+      "@AskPlayStation fix live chat please",
+      "@AskPlayStation Is there a live chat for support?",
+      "@AskPlayStation I need live chat link",
+      "@AskPlayStation why am I blocked from live chat?"
+    ]
+  }
+]

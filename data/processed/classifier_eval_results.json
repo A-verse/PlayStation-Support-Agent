@@ -1,0 +1,354 @@
+{
+  "training_size": 15806,
+  "golden_eval_size": 188,
+  "golden_excluded_from_evaluation": 1,
+  "results": {
+    "majority_baseline": {
+      "accuracy": 0.06382978723404255,
+      "macro_f1": 0.013333333333333332,
+      "weighted_f1": 0.007659574468085106,
+      "per_intent": {
+        "Account Access & Recovery": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 37.0
+        },
+        "Purchases, Billing & Refunds": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 30.0
+        },
+        "Error Codes & Technical Faults": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "Network & Service Connectivity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 17.0
+        },
+        "Console Troubleshooting (Safe Mode / General Fix)": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 15.0
+        },
+        "Downloads & Digital Content": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 16.0
+        },
+        "PlayStation Vue / Streaming Service": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 17.0
+        },
+        "Hardware / Device Malfunction": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 24.0
+        },
+        "Unclear / Insufficient Information": {
+          "precision": 0.06382978723404255,
+          "recall": 1.0,
+          "f1-score": 0.12,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          37
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Account Access & Recovery",
+        "Purchases, Billing & Refunds",
+        "Error Codes & Technical Faults",
+        "Network & Service Connectivity",
+        "Console Troubleshooting (Safe Mode / General Fix)",
+        "Downloads & Digital Content",
+        "PlayStation Vue / Streaming Service",
+        "Hardware / Device Malfunction",
+        "Unclear / Insufficient Information"
+      ],
+      "predicted_class": "Unclear / Insufficient Information"
+    },
+    "tfidf_logreg": {
+      "accuracy": 0.7606382978723404,
+      "macro_f1": 0.7597012599254539,
+      "weighted_f1": 0.7662703574829877,
+      "per_intent": {
+        "Account Access & Recovery": {
+          "precision": 0.7714285714285715,
+          "recall": 0.7297297297297297,
+          "f1-score": 0.75,
+          "support": 37.0
+        },
+        "Purchases, Billing & Refunds": {
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.7586206896551724,
+          "support": 30.0
+        },
+        "Error Codes & Technical Faults": {
+          "precision": 0.8260869565217391,
+          "recall": 0.95,
+          "f1-score": 0.8837209302325582,
+          "support": 20.0
+        },
+        "Network & Service Connectivity": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5882352941176471,
+          "f1-score": 0.6451612903225806,
+          "support": 17.0
+        },
+        "Console Troubleshooting (Safe Mode / General Fix)": {
+          "precision": 0.6111111111111112,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.6666666666666666,
+          "support": 15.0
+        },
+        "Downloads & Digital Content": {
+          "precision": 0.9230769230769231,
+          "recall": 0.75,
+          "f1-score": 0.8275862068965517,
+          "support": 16.0
+        },
+        "PlayStation Vue / Streaming Service": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 17.0
+        },
+        "Hardware / Device Malfunction": {
+          "precision": 0.9375,
+          "recall": 0.625,
+          "f1-score": 0.75,
+          "support": 24.0
+        },
+        "Unclear / Insufficient Information": {
+          "precision": 0.4166666666666667,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.5555555555555556,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          27,
+          3,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          2,
+          22,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          10,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          11,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          1,
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          15,
+          4
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Account Access & Recovery",
+        "Purchases, Billing & Refunds",
+        "Error Codes & Technical Faults",
+        "Network & Service Connectivity",
+        "Console Troubleshooting (Safe Mode / General Fix)",
+        "Downloads & Digital Content",
+        "PlayStation Vue / Streaming Service",
+        "Hardware / Device Malfunction",
+        "Unclear / Insufficient Information"
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "brand": "AskPlayStation",
+  "raw_csv": "data/raw/twcs.csv",
+  "seed": 42,
+  "context_turns": 2,
+  "lang_filter_applied": true,
+  "counts": {
+    "raw_pairs_reconstructed": 17951,
+    "exact_duplicates_removed": 256,
+    "pairs_after_dedup": 17695,
+    "near_empty_replies_le4_words": 237,
+    "language_distribution": {
+      "en": 15995,
+      "es": 1064,
+      "pt": 544,
+      "tl": 35,
+      "it": 17,
+      "fr": 8,
+      "id": 7,
+      "et": 5,
+      "nl": 3,
+      "sv": 2,
+      "vi": 2,
+      "hr": 2,
+      "so": 2,
+      "ca": 2,
+      "de": 2,
+      "da": 1,
+      "af": 1,
+      "tr": 1,
+      "sl": 1,
+      "cs": 1
+    },
+    "english_pairs": 15995,
+    "non_english_pairs": 1700,
+    "final_pairs_after_cap": 15995,
+    "max_pairs_cap": 100000
+  },
+  "unique_conversations": {
+    "unique_customer_tweet_ids": 17695,
+    "unique_customer_author_ids": 12040
+  },
+  "date_range": {
+    "min": "2014-07-14 17:27:18+00:00",
+    "max": "2017-12-03 22:42:50+00:00"
+  },
+  "output_files": {
+    "final": "data/processed/pairs.jsonl",
+    "non_english_audit": "data/processed/pairs.non_english.jsonl"
+  }
+}

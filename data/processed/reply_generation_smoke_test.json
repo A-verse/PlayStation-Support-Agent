@@ -1,0 +1,3267 @@
+[
+  {
+    "customer_text": "@AskPlayStation I performed a full reset of the ps4 few hours ago and I reinstalled all the apps from scratch. Do I still need to go to safe mode ?",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Hi, I have w ps4 pro with the latest version of the system. The error message happens after I successfully logged into Spotify on ps4. The message happens when I want to link my Spotify account to my ps4 profile."
+      },
+      {
+        "role": "brand",
+        "text": "Totally understand. Thanks for that info. Start your PS4 in safe mode & select Restore Default Settings:"
+      }
+    ],
+    "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "classifier_confidence": 0.8826846057142954,
+    "message_quality": {
+      "word_count": 30,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_129817",
+        "historical_customer_text": "@AskPlayStation Hi, I have w ps4 pro with the latest version of the system. The error message happens after I successfully logged into Spotify on ps4. The message happens when I want to link my Spotify account to my ps4 profile.",
+        "historical_brand_reply": "Totally understand. Thanks for that info. Start your PS4 in safe mode & select Restore Default Settings:",
+        "similarity_score": 0.6489028216185001,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_2375874",
+        "historical_customer_text": "@AskPlayStation I had already tried that",
+        "historical_brand_reply": "Thanks for trying that. Please make sure you are following us, so we can assist you better via a Direct Message.",
+        "similarity_score": 0.38715583651581253,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      },
+      {
+        "pair_id": "AskPlayStation_954099",
+        "historical_customer_text": "@AskPlayStation It's still says that after the process I did",
+        "historical_brand_reply": "Please power cycle your network devices and try again:",
+        "similarity_score": 0.387063203565521,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Totally understand. Thanks for that info. Start your PS4 in safe mode & select Restore Default Settings:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0110",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Ps3 doesnt have the option to start in safe mode and im having issues there as well",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Already tried that a couple times"
+      },
+      {
+        "role": "brand",
+        "text": "Please start your system in safe mode and select restore default settings. Steps here:"
+      }
+    ],
+    "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "classifier_confidence": 0.990020346833362,
+    "message_quality": {
+      "word_count": 18,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2525668",
+        "historical_customer_text": "@AskPlayStation Its that gonna delete anything?",
+        "historical_brand_reply": "No, That process does not delete any content from the console.",
+        "similarity_score": 0.7041242485930479,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      },
+      {
+        "pair_id": "AskPlayStation_1026494",
+        "historical_customer_text": "@AskPlayStation Okay thank you this seems to have worked",
+        "historical_brand_reply": "You are welcome anytime. Let us know if there's anything we can lend a hand with!",
+        "similarity_score": 0.64842217468992,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      },
+      {
+        "pair_id": "AskPlayStation_379514",
+        "historical_customer_text": "@AskPlayStation Done that and the error still comes up",
+        "historical_brand_reply": "Oh no! We have sent you a direct message to assist!",
+        "similarity_score": 0.6447515299625557,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "No, That process does not delete any content from the console.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0035",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation safe mode #3 #4 won't repair corrupted file, what should I do?",
+    "prior_context": [],
+    "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "classifier_confidence": 0.9380615911838645,
+    "message_quality": {
+      "word_count": 13,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_513756",
+        "historical_customer_text": "@AskPlayStation how do i get out of safe mode?",
+        "historical_brand_reply": "Hello Sebas. Sorry for the delay. Just checking in. Do you still need assistance?",
+        "similarity_score": 0.4599741337724641,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      },
+      {
+        "pair_id": "AskPlayStation_1088700",
+        "historical_customer_text": "@AskPlayStation my ps4 stuck in safe mode and won't come out",
+        "historical_brand_reply": "That's not good. Press and hold the power button until the PS4 is off then disconnect all the cables for 3 min. and try again",
+        "similarity_score": 0.432721256916051,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      },
+      {
+        "pair_id": "AskPlayStation_2969110",
+        "historical_customer_text": "@AskPlayStation Can't get of safe mode to change Internet router details",
+        "historical_brand_reply": "For further assistance please follow us and send us a Direct Message, we look forward to your reply.",
+        "similarity_score": 0.4216304356807383,
+        "predicted_intent": "Console Troubleshooting (Safe Mode / General Fix)"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hello Sebas. Sorry for the delay. Just checking in. Do you still need assistance?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0050",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation my PS3 will not update or restore because the system software is broken but comes up with error I have official download upd",
+    "prior_context": [],
+    "predicted_intent": "Downloads & Digital Content",
+    "classifier_confidence": 0.8252167302264473,
+    "message_quality": {
+      "word_count": 24,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1536121",
+        "historical_customer_text": "@AskPlayStation my doc code comes up as error. Help please",
+        "historical_brand_reply": "Sorry for the delay. Please check your DMs for further instructions.",
+        "similarity_score": 0.43759393215626835,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1054091",
+        "historical_customer_text": "@AskPlayStation i cannot download the software update 5.0 is there a fix to this?",
+        "historical_brand_reply": "Sorry for the inconvenience. Do you see any kind of error message or error code?",
+        "similarity_score": 0.2447090991185003,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_97135",
+        "historical_customer_text": "@AskPlayStation Download of the PS3 system software update from the web site fails on every attempt. (It gets a few MBs in before failing sometimes.) Update through the console not an option. How can I get the update?",
+        "historical_brand_reply": "Let's check it out! Try formatting a USB to FAT32 or exFAT and reinstall the update following the steps on the next link:",
+        "similarity_score": 0.23550239859708016,
+        "predicted_intent": "Downloads & Digital Content"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Sorry for the delay. Please check your DMs for further instructions.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Sorry for the delay. Please check your DMs for further instructions.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0011",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation it was stuck on that safe mode loop so i initialized my ps4",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation on the website"
+      },
+      {
+        "role": "brand",
+        "text": "Oh no! Are you receiving any error codes or messages?"
+      }
+    ],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.634450570094782,
+    "message_quality": {
+      "word_count": 14,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_262353",
+        "historical_customer_text": "@AskPlayStation It\u2019s fine now.",
+        "historical_brand_reply": "Glad to hear! Feel free to tweet us anytime!",
+        "similarity_score": 0.6477227121734858,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_390154",
+        "historical_customer_text": "@AskPlayStation Not receiving any error codes, it is just saying that it cannot find the application when i go to install it.",
+        "historical_brand_reply": "Is your game disc region the same region as your PSN account? If they don't match, your DLC may not be compatible.",
+        "similarity_score": 0.48061403673386316,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_330616",
+        "historical_customer_text": "@AskPlayStation A message",
+        "historical_brand_reply": "What's the error you are getting? Please provide us more details about the issue",
+        "similarity_score": 0.4754746662108965,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Glad to hear! Feel free to tweet us anytime!",
+    "polarity_check": {
+      "passed": false,
+      "reasons": [
+        "complaint_met_with_celebratory_reply",
+        "claims_unconfirmed_resolution"
+      ]
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:polarity+responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0012",
+    "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation a mate of mine was using my account. Now that I've logged in back on my PlayStation I can't get it to confirm my license??",
+    "prior_context": [],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.6600002388061961,
+    "message_quality": {
+      "word_count": 26,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1482205",
+        "historical_customer_text": "@AskPlayStation I've been logged out of my PlayStation and the email that is on it is no longer active so I can't reset my password",
+        "historical_brand_reply": "Hello Robbie. Let's look into that. We'd be happy to help. Please check your DM's for further instructions.",
+        "similarity_score": 0.37560015968828453,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_223321",
+        "historical_customer_text": "@AskPlayStation I've logged In to my PlayStation account via phone. Still can't log in on Ps4",
+        "historical_brand_reply": "Sorry to know that. Do you see any kind of error message or error code?",
+        "similarity_score": 0.35926189116868873,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_339278",
+        "historical_customer_text": "@197014 @AskPlayStation do with that aswel but I accepted that msg on the terms thing x",
+        "historical_brand_reply": "We apologize for the delay. Are you still experiencing this issue?",
+        "similarity_score": 0.33371196759368454,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hello Robbie. Let's look into that. We'd be happy to help. Please check your DM's for further instructions.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hello Robbie. Let's look into that. We'd be happy to help. Please check your DM's for further instructions.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0115",
+    "true_intent": "Account Access & Recovery",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation My PS4 was stolen last week. Any way I can track it? Or just go ahead and deactivate it?",
+    "prior_context": [
+      {
+        "role": "brand",
+        "text": "Helpful info on deactivating your consoles via our Website! Learn more here:"
+      }
+    ],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.5670095709300217,
+    "message_quality": {
+      "word_count": 20,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2550046",
+        "historical_customer_text": "@AskPlayStation What should I do if my account is banned",
+        "historical_brand_reply": "We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.729687159420955,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2681615",
+        "historical_customer_text": "@AskPlayStation I\u2019m still seeing my old consoles active and no longer have them in position since they are destroyed",
+        "historical_brand_reply": "That's not good. You can deactivate your account using a PC following these steps:",
+        "similarity_score": 0.6795856705626859,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_2806816",
+        "historical_customer_text": "@AskPlayStation When are we gonna be able to change our username though?!?!",
+        "historical_brand_reply": "Hi! Post your feedback and ideas here: our Team will review them and take them into consideration.",
+        "similarity_score": 0.6638595784067742,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "We have sent you a Direct Message via Twitter with further instructions.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "boilerplate_low_specificity",
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0136",
+    "true_intent": "Account Access & Recovery",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Customer Support is closed for today when I called anyways when I tried to login in with my sub account it says that I need to accept the ToF however, the ToF is not popping up for my sub account.",
+    "prior_context": [],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.956023522313896,
+    "message_quality": {
+      "word_count": 41,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_373109",
+        "historical_customer_text": "@AskPlayStation I've tried both on my sub account and it says I need to go through it on my sub account but it won't let me login in",
+        "historical_brand_reply": "Thank you for contacting us! Please check your Direct Messages.",
+        "similarity_score": 0.8573270885690772,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_649367",
+        "historical_customer_text": "@AskPlayStation how do you delete a sub account? Please help",
+        "historical_brand_reply": "Glad to help. Please take a look at the following link for further instructions:",
+        "similarity_score": 0.41680471900005456,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_979237",
+        "historical_customer_text": "@AskPlayStation Still locked",
+        "historical_brand_reply": "Please follow us via Twitter and let us know so we can send you a DM with further instructions.",
+        "similarity_score": 0.3969693069308051,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Thank you for contacting us! Please check your Direct Messages.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Thank you for contacting us! Please check your Direct Messages.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0114",
+    "true_intent": "Account Access & Recovery",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I forgot my date of birth for my account in PSN, could you please help me and fix this issue.!!",
+    "prior_context": [],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.6610585454275422,
+    "message_quality": {
+      "word_count": 21,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2570606",
+        "historical_customer_text": "@AskPlayStation \ud83d\ude21\ud83d\ude21\ud83d\ude21\ud83d\ude21\ud83d\ude21\ud83d\ude21!!!!!!!! answer!!!",
+        "historical_brand_reply": "Hi there. Sorry for the delay. Please check your DM's for further instructions.",
+        "similarity_score": 0.5633472469934738,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_286043",
+        "historical_customer_text": "@AskPlayStation Hello I forgot the date of birth of my account (Master) and my child can't login",
+        "historical_brand_reply": "Not to worry! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+        "similarity_score": 0.5252512627867697,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_1236023",
+        "historical_customer_text": "@AskPlayStation i forgot my date of birth how can i reset my password ???",
+        "historical_brand_reply": "Hi there. Let's look into that. Please check your DM's for further instructions.",
+        "similarity_score": 0.49918162822070833,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi there. Sorry for the delay. Please check your DM's for further instructions.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hi there. Sorry for the delay. Please check your DM's for further instructions.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0167",
+    "true_intent": "Account Access & Recovery",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation why your request chat doesnt accept my online id . please help me. i dont use my ps4. because of my email adres is hacked. i bought a lot of games. i dont play anyone. @106761",
+    "prior_context": [],
+    "predicted_intent": "Purchases, Billing & Refunds",
+    "classifier_confidence": 0.36784965425836513,
+    "message_quality": {
+      "word_count": 37,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_160648",
+        "historical_customer_text": "@askplaystation WHY I DONT KNOW USE SUPPORT CHAT PSN ONLINE ID PROBLEM....I KNOW MY ONLINE ID BUT ITS NOT WORKING...IM IN ONLINE MOD IN PLAYSTATION AND ITS NOT WORKING:...............",
+        "historical_brand_reply": "Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+        "similarity_score": 0.31893477234192763,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_1508471",
+        "historical_customer_text": "@AskPlayStation my platstation cant log my account in. i do still have playstation+. when i request chat it doesnt even recognize my usernam",
+        "historical_brand_reply": "Sorry to hear that! We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.3032981238316981,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2758377",
+        "historical_customer_text": "@AskPlayStation I know. But i hope it will come in the near future!.. I am nearly dying of wait to change my PSN online ID @117014 @117013 please help <3",
+        "historical_brand_reply": "Please post your feedback and ideas here: our Team will review them and take them into consideration.",
+        "similarity_score": 0.28522843983486823,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": [
+        "boilerplate_low_specificity"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0171",
+    "true_intent": "Account Access & Recovery",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I have error code CE-34335-8 (Cannot access system storage) on my #ps4 outta nowhere.. Tried reinserting hdd, no difference. What else can you suggest to do to fix my problem? I dont wana have to buy a new hdd & I think my console is out of its warranty period....",
+    "prior_context": [],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.8197579810301485,
+    "message_quality": {
+      "word_count": 51,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_780966",
+        "historical_customer_text": "@AskPlayStation My Playstation cannot start as it can't access storage system error CE-34335-8",
+        "historical_brand_reply": "Sorry for the inconvenience. Please follow the steps in the next link:",
+        "similarity_score": 0.4646551478420756,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1166203",
+        "historical_customer_text": "@AskPlayStation I have an question error code ce-34335-8",
+        "historical_brand_reply": "Hi there, Please follow the steps in the next link:",
+        "similarity_score": 0.41244875225207084,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_587744",
+        "historical_customer_text": "@AskPlayStation error code ce-34335-8 has popped up randomly, what do i do",
+        "historical_brand_reply": "Hi there! Please check here more information about that that error code.",
+        "similarity_score": 0.36713469182155956,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Sorry for the inconvenience. Please follow the steps in the next link:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Sorry for the inconvenience. Please follow the steps in the next link:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0032",
+    "true_intent": "Error Codes & Technical Faults",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Getting the WC-40382-7. I haven't changed anything from my details since last buy. Tried re-installing card. Did not work.",
+    "prior_context": [],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.7872277907120863,
+    "message_quality": {
+      "word_count": 20,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_873540",
+        "historical_customer_text": "@AskPlayStation Done - still wont work. Nothing has changed regarding my address or name. And it worked as soon as 14 days ago when I bought FIFA18.",
+        "historical_brand_reply": "Please try the following steps related to the error code WC-40382-7:",
+        "similarity_score": 0.5762958982056162,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_2961501",
+        "historical_customer_text": "@AskPlayStation Didn't work.",
+        "historical_brand_reply": "You can also try our Web Store:",
+        "similarity_score": 0.35726685784764883,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1335913",
+        "historical_customer_text": "@AskPlayStation hello i've error my credit card. wc-40382-7",
+        "historical_brand_reply": "Sorry to hear that! For billing issues, please follow the steps in the next link:",
+        "similarity_score": 0.34347487967755197,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Please try the following steps related to the error code WC-40382-7:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Please try the following steps related to the error code WC-40382-7:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0137",
+    "true_intent": "Error Codes & Technical Faults",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I've been getting error code E-801809A8 PLEASE HELP UPDATE BRICKED MY SYSTEM",
+    "prior_context": [],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.9377538705903566,
+    "message_quality": {
+      "word_count": 13,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1705992",
+        "historical_customer_text": "@AskPlayStation Hey I've been getting error code 80710016 on my PS3 since last night. I've tried all the troubleshooting and still nothing..",
+        "historical_brand_reply": "Please check your DM's for more instructions.",
+        "similarity_score": 0.3680703334832428,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_2721393",
+        "historical_customer_text": "@AskPlayStation why am I getting this error.",
+        "historical_brand_reply": "Hello Daniel! Please check your DMs for further assistance.",
+        "similarity_score": 0.32884606997716437,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_548418",
+        "historical_customer_text": "@AskPlayStation why do I keep getting this error",
+        "historical_brand_reply": "Hi there! Please check here more details about the error code.",
+        "similarity_score": 0.32884606997716437,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Please check your DM's for more instructions.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "boilerplate_low_specificity",
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0153",
+    "true_intent": "Error Codes & Technical Faults",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I'm from Italy and I have a problem on my PS4... \"Error CE-41881-2\". It started since last system update. Need your help \ud83d\ude4f",
+    "prior_context": [],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.9422790421257766,
+    "message_quality": {
+      "word_count": 24,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1692587",
+        "historical_customer_text": "@AskPlayStation What is the cause of Error CE-41881-2? PS4",
+        "historical_brand_reply": "Here to help! What you were doing in the console when you got this error code? Please provide us more details",
+        "similarity_score": 0.41570938619341513,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_2792619",
+        "historical_customer_text": "@AskPlayStation what is the solution of error (CE-35668-8)",
+        "historical_brand_reply": "Glad to help. What are you trying to do when you see the error code?",
+        "similarity_score": 0.3823299867286769,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_760048",
+        "historical_customer_text": "Hi @AskPlayStation How to resolve this error CE-30022-7",
+        "historical_brand_reply": "Hey there. What you were doing in the console when you get this error code?",
+        "similarity_score": 0.3586606450312107,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Here to help! What you were doing in the console when you got this error code? Please provide us more details",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0166",
+    "true_intent": "Error Codes & Technical Faults",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Error code (CE-33992-6)",
+    "prior_context": [
+      {
+        "role": "brand",
+        "text": "Sure we can help! Are you getting any error code or message? Please provide us more details about the issue"
+      },
+      {
+        "role": "customer",
+        "text": "@AskPlayStation My network is working but it seems to be a problem with the PS network, i'm trying to play FIFA18 ultimate team"
+      }
+    ],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.9996056511198278,
+    "message_quality": {
+      "word_count": 4,
+      "is_very_short": true,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": true,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "very_short_message",
+        "context_dependent_terse_followup"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_209027",
+        "historical_customer_text": "@AskPlayStation im sorry",
+        "historical_brand_reply": "No worries! Feel free to tweet us anytime.",
+        "similarity_score": 0.5705642663008412,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1238560",
+        "historical_customer_text": "@AskPlayStation I can log in now. :)",
+        "historical_brand_reply": "Glad to hear it is all sorted! Tweet us back anytime!",
+        "similarity_score": 0.48023311184784284,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1408793",
+        "historical_customer_text": "@AskPlayStation I contact you already",
+        "historical_brand_reply": "Okay, thank you for letting us know, Contact us back if you need further assistance.",
+        "similarity_score": 0.46332860957471145,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "message_quality_guard:very_short_message+context_dependent_terse_followup"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "No worries! Feel free to tweet us anytime.",
+    "polarity_check": {
+      "passed": false,
+      "reasons": [
+        "complaint_met_with_celebratory_reply",
+        "claims_unconfirmed_resolution"
+      ]
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:polarity+responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0128",
+    "true_intent": "Error Codes & Technical Faults",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation my controller just randomly froze then turned off, now its not turning on or charging",
+    "prior_context": [],
+    "predicted_intent": "Hardware / Device Malfunction",
+    "classifier_confidence": 0.6312402898061127,
+    "message_quality": {
+      "word_count": 16,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2656263",
+        "historical_customer_text": "@AskPlayStation could you please help me with my controller because it is not turning on and not charging I don't want to go out and have to buy one just cause it turned off suddenly could you please help me fix it myself",
+        "historical_brand_reply": "Happy to help! Try following these steps:",
+        "similarity_score": 0.4132288633190112,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_871515",
+        "historical_customer_text": "@AskPlayStation HELP! My controller isn't charging, its not my charging cord or anything, I have done the reset button thing to but no luck.",
+        "historical_brand_reply": "Hi Julian. Please check your DM's for more instructions.",
+        "similarity_score": 0.3711802067846113,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_1344172",
+        "historical_customer_text": "My ps4 controller isn\u2019t charging I tried it on every charger still isn\u2019t charging plz help @AskPlayStation",
+        "historical_brand_reply": "Sorry for the inconvenience. Please follow the steps in the next link:",
+        "similarity_score": 0.35782834687459003,
+        "predicted_intent": "Hardware / Device Malfunction"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Happy to help! Try following these steps:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Happy to help! Try following these steps:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0088",
+    "true_intent": "Hardware / Device Malfunction",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I am trying to get my new vr headset to work.The headset has a HDMI message with a X displayed. I can\u2019t get past this....",
+    "prior_context": [],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.529964269796402,
+    "message_quality": {
+      "word_count": 26,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_427937",
+        "historical_customer_text": "@AskPlayStation can you use the VR headset to play all PS4 games? If so will there be a release of just the VR headset to replace my TV?",
+        "historical_brand_reply": "Hey we love hearing suggestion, if you would like you can post yours here",
+        "similarity_score": 0.5681004183641494,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_2516624",
+        "historical_customer_text": "@AskPlayStation is the new vr bundle wiv camera at \u00a3349 is that the new version of headset wiv hdr pass through. info plz",
+        "historical_brand_reply": "Hey Steve. Find more information in the EU Blog:",
+        "similarity_score": 0.43326670231636416,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_2744773",
+        "historical_customer_text": "@AskPlayStation Hi, my dog chewed up one of my PSVR cables, VR headset connection cable (CUH-ZVR1) labeled 4 to be precise. Where can I get a replacement?",
+        "historical_brand_reply": "Oh no! We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.4127033562858181,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Hey we love hearing suggestion, if you would like you can post yours here",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": "evidence_failure:unclear_intent",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0135",
+    "true_intent": "Hardware / Device Malfunction",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Got a blue light of death on my PS4. Seems to be related to the HDMI port. Followed official ps guides but its still dead.",
+    "prior_context": [],
+    "predicted_intent": "Hardware / Device Malfunction",
+    "classifier_confidence": 0.9903092079701188,
+    "message_quality": {
+      "word_count": 26,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1198833",
+        "historical_customer_text": "@AskPlayStation my hdmi port is not showing connection",
+        "historical_brand_reply": "Hi Zack. Sorry for the delay. Have you tried to connect your console using a different HDMI Cord or on another TV?",
+        "similarity_score": 0.44615163678493974,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_716720",
+        "historical_customer_text": "@AskPlayStation any way of fixing blue light of death, because I ain't buying another shit PS4",
+        "historical_brand_reply": "Hi there. Please check the steps in the next link: Scroll down to see the troubleshooting.",
+        "similarity_score": 0.4025403197565044,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_42945",
+        "historical_customer_text": "@Askplaystation how do I get my PS4\u2019s hdmi port repaired. Thanks !",
+        "historical_brand_reply": "Hi there! Check out the next article on how to get service and repair:",
+        "similarity_score": 0.36983466682215776,
+        "predicted_intent": "Hardware / Device Malfunction"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi Zack. Sorry for the delay. Have you tried to connect your console using a different HDMI Cord or on another TV?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hi Zack. Sorry for the delay. Have you tried to connect your console using a different HDMI Cord or on another TV?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0019",
+    "true_intent": "Hardware / Device Malfunction",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation @149601 controllers won\u2019t connect to my ps4 i just tried 2 and it\u2019s not working!!",
+    "prior_context": [],
+    "predicted_intent": "Hardware / Device Malfunction",
+    "classifier_confidence": 0.830633908314012,
+    "message_quality": {
+      "word_count": 16,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2790930",
+        "historical_customer_text": "@AskPlayStation @117014 My controllers won't connect/charge. Are there any fixes?",
+        "historical_brand_reply": "Hi there. Please follow the steps in the next link: Also did you try another USB cable?",
+        "similarity_score": 0.5223288980571065,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_2656245",
+        "historical_customer_text": "@AskPlayStation What do I do? For some reason my controllers won\u2019t charge OR connect! I recently got a new PS4 controller and it won\u2019t even connect to my PS4!",
+        "historical_brand_reply": "Hello Michael. Have you tried resetting your controller? Please follow the instructions here:",
+        "similarity_score": 0.4676407220913944,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_2315117",
+        "historical_customer_text": "@AskPlayStation my controller won't connect to my ps4",
+        "historical_brand_reply": "Sure we can help! Have you tried using another USB cable?, also you can try resetting your DS4:",
+        "similarity_score": 0.4255947194314096,
+        "predicted_intent": "Hardware / Device Malfunction"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi there. Please follow the steps in the next link: Also did you try another USB cable?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hi there. Please follow the steps in the next link: Also did you try another USB cable?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0091",
+    "true_intent": "Hardware / Device Malfunction",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation my PS4 controller won\u2019t sync to my console I have tried everything safe mode won\u2019t work because controller still cant sync",
+    "prior_context": [],
+    "predicted_intent": "Hardware / Device Malfunction",
+    "classifier_confidence": 0.8649917648424248,
+    "message_quality": {
+      "word_count": 22,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1106067",
+        "historical_customer_text": "@AskPlayStation I've been trying to sync my PS4 controller to the system but every time ..I get an orange flash and it won't sync or charge",
+        "historical_brand_reply": "Here to help! Please reset he controller and try to pair it again by following the steps in the link:",
+        "similarity_score": 0.5277691790484296,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_2645889",
+        "historical_customer_text": "@149601 @AskPlayStation brought a new controller and I'm trying to sync it up. It won't sync.It won't turn on the system despite it being linked it up the system. Took it back and swapped it. Same problem. My other controller works so can't be cable or the system",
+        "historical_brand_reply": "Sorry to know that. Please follow the steps in the next link:",
+        "similarity_score": 0.4549671797030075,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_1543939",
+        "historical_customer_text": "@AskPlayStation Hey, My controller won't sync to my PS4, tried plugging it in and still no luck. Help!!!",
+        "historical_brand_reply": "Glad to help, for issues with your controller please follow the steps in the next link:",
+        "similarity_score": 0.43571216718214284,
+        "predicted_intent": "Hardware / Device Malfunction"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": true,
+    "candidate_reply": "Sorry to hear that didn't work. Since the usual first step didn't help, please follow us and send a Direct Message with more details so we can look into this further.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Sorry to hear that didn't work. Since the usual first step didn't help, please follow us and send a Direct Message with more details so we can look into this further.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0132",
+    "true_intent": "Hardware / Device Malfunction",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I keep getting blocked off the live chat request..What's the problem? My PSN is planck-h",
+    "prior_context": [],
+    "predicted_intent": "Network & Service Connectivity",
+    "classifier_confidence": 0.997757091480652,
+    "message_quality": {
+      "word_count": 16,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_94377",
+        "historical_customer_text": "@AskPlayStation why am I blocked from live chat?",
+        "historical_brand_reply": "Hi! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+        "similarity_score": 0.6752211688885683,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_1596509",
+        "historical_customer_text": "@AskPlayStation Is live chat down?",
+        "historical_brand_reply": "Would you be so kind to provide us more information on what you are experiencing?",
+        "similarity_score": 0.5376535586402706,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_1705508",
+        "historical_customer_text": "@AskPlayStation ive tried to communicate via live chat every time i put my information they say your blocked from live chat why ?i have prob",
+        "historical_brand_reply": "Sorry for the inconvenience. Please let us k now the region of your PSN account.",
+        "similarity_score": 0.5226195162182323,
+        "predicted_intent": "Network & Service Connectivity"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hi! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0024",
+    "true_intent": "Network & Service Connectivity",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation @117014 Hey my ps4 won't connect to pan services and its bees updated",
+    "prior_context": [
+      {
+        "role": "brand",
+        "text": "All PSN account holders will be receiving a notice that the Terms of Service have been updated. For more details:"
+      }
+    ],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.3662869936452399,
+    "message_quality": {
+      "word_count": 14,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_260594",
+        "historical_customer_text": "@AskPlayStation @117014 For some reason I can't connect to PSN I tried everything",
+        "historical_brand_reply": "Great to hear!",
+        "similarity_score": 0.7499202041176976,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_265113",
+        "historical_customer_text": "@AskPlayStation @117014 I can\u2019t connect to the internet as well. It seems to be on the PSN update.",
+        "historical_brand_reply": "Sorry to know that. Do you see any kind of error message or error code?",
+        "similarity_score": 0.7235580020655777,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_263726",
+        "historical_customer_text": "@AskPlayStation I forgot my password and I\u2019m not able to go on the email I used",
+        "historical_brand_reply": "Oh no! Please follow us and send us a direct message so that we can assist you further.",
+        "similarity_score": 0.7147705949254843,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Great to hear!",
+    "polarity_check": {
+      "passed": false,
+      "reasons": [
+        "complaint_met_with_celebratory_reply",
+        "claims_unconfirmed_resolution"
+      ]
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:polarity",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0083",
+    "true_intent": "Network & Service Connectivity",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Still Need help!!!! I can't connect on my PSN account due to the 2 step verification. I moved abroad and i changed my phone number so i can't get my code to confirm i'm me",
+    "prior_context": [],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.5778754538802606,
+    "message_quality": {
+      "word_count": 36,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2149734",
+        "historical_customer_text": "@AskPlayStation , I can't connect on my PSN account because of the 2-step verification. I change my phone number because I moved abroad and I cannot get my code back!!! Help",
+        "historical_brand_reply": "Hello there! For assistance please follow us and send us a Direct Message, we look forward to your reply.",
+        "similarity_score": 0.7660605399419554,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2814064",
+        "historical_customer_text": "@AskPlayStation I can't access my account because of two step verification as I changed my number",
+        "historical_brand_reply": "Hi! Please check your DM's for more instructions.",
+        "similarity_score": 0.5388645159692751,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2751744",
+        "historical_customer_text": "@AskPlayStation Hey, is it possible for you to deactivate my two step verification? My two step verification phone number is linked to a deactivated phone. I can\u2019t log in without two step verification being turned off. (No phone is connected to PS, they all got logged out)",
+        "historical_brand_reply": "Sorry to hear that! We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.43934098104226854,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hello there! For assistance please follow us and send us a Direct Message, we look forward to your reply.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hello there! For assistance please follow us and send us a Direct Message, we look forward to your reply.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0013",
+    "true_intent": "Network & Service Connectivity",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Why is my PS4 getting such a slow connection speed? All other devices in my house are fine.",
+    "prior_context": [],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.5756841759305693,
+    "message_quality": {
+      "word_count": 19,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1029923",
+        "historical_customer_text": "@AskPlayStation Connection speed (download) 504.s kbps Connection speed (upload) 413.2 kbps",
+        "historical_brand_reply": "Thanks for the Information! PlayStation Vue requires at least 10 mbps to run correctly. Learn more here.",
+        "similarity_score": 0.5611944636524301,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_1183116",
+        "historical_customer_text": "@AskPlayStation Why is my internet connection so slow? It works on other devices fine(20/20) but on ps4 getting 3mbps down./600kbps up.?",
+        "historical_brand_reply": "Here to help! Please try the following steps to improve your internet connection:",
+        "similarity_score": 0.49656284797478845,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_1372339",
+        "historical_customer_text": "@AskPlayStation The test says successful. Connection speed download 10.4 Mbps. Connection speed upload 925.4kbps",
+        "historical_brand_reply": "Oh no! Here's a link with port info that will help you gain a better connection through your router:",
+        "similarity_score": 0.42012485023475044,
+        "predicted_intent": "Downloads & Digital Content"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Thanks for the Information! PlayStation Vue requires at least 10 mbps to run correctly. Learn more here.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": "evidence_failure:unclear_intent",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0158",
+    "true_intent": "Network & Service Connectivity",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Your servers wont recognize my username, while I'm trying to get into a live chat for a refund. Please help",
+    "prior_context": [],
+    "predicted_intent": "Network & Service Connectivity",
+    "classifier_confidence": 0.9957574876738049,
+    "message_quality": {
+      "word_count": 21,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2689905",
+        "historical_customer_text": "@AskPlayStation Im trying to get live chat support, but all my accounts which are concerend and the one i specially made yesterday \"can not be found\". Is live chat not functioning atm?",
+        "historical_brand_reply": "Hi there. Live chat is available. Please let us know the country that you selected when you created your PSN account.",
+        "similarity_score": 0.4262173006724804,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_1596509",
+        "historical_customer_text": "@AskPlayStation Is live chat down?",
+        "historical_brand_reply": "Would you be so kind to provide us more information on what you are experiencing?",
+        "similarity_score": 0.4165783458447394,
+        "predicted_intent": "Network & Service Connectivity"
+      },
+      {
+        "pair_id": "AskPlayStation_2330712",
+        "historical_customer_text": "@AskPlayStation fix live chat please",
+        "historical_brand_reply": "Sorry for the inconvenience. Do you see any kind of error code? What is the region of your PSN account?",
+        "similarity_score": 0.37492567435535973,
+        "predicted_intent": "Network & Service Connectivity"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi there. Live chat is available. Please let us know the country that you selected when you created your PSN account.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0052",
+    "true_intent": "Network & Service Connectivity",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation charge on account",
+    "prior_context": [],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.547474816179371,
+    "message_quality": {
+      "word_count": 4,
+      "is_very_short": true,
+      "has_actionable_signal": false,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "very_short_message",
+        "no_actionable_request"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1271748",
+        "historical_customer_text": "@AskPlayStation an unknown charge appeared on my account but I didn't get any email or anything. Anyway I can cancel the charge,get refund?",
+        "historical_brand_reply": "Not good! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+        "similarity_score": 0.5968394873826787,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_1254336",
+        "historical_customer_text": "@AskPlayStation Why do both my motion controllers no longer charge? I have plugged them in to charge but no longer work? :(",
+        "historical_brand_reply": "Sorry to know that. Please follow the instructions here:",
+        "similarity_score": 0.5865777841716816,
+        "predicted_intent": "Hardware / Device Malfunction"
+      },
+      {
+        "pair_id": "AskPlayStation_1276759",
+        "historical_customer_text": "@AskPlayStation my controller has been on charge for 3 hours and it says controller disconnected please charge the battery please help",
+        "historical_brand_reply": "Let's look into it! Check out the next article to troubleshoot the controller. Keep us posted!",
+        "similarity_score": 0.5173020379857983,
+        "predicted_intent": "Hardware / Device Malfunction"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "message_quality_guard:very_short_message+no_actionable_request"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Not good! Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": "evidence_failure:message_quality_guard:very_short_message+no_actionable_request",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0109",
+    "true_intent": "Unclear / Insufficient Information",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation hi when are you guys going to put in the option to change notification location? It blocks my mini map on call of duty",
+    "prior_context": [],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.6475107317890116,
+    "message_quality": {
+      "word_count": 25,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1222966",
+        "historical_customer_text": "@AskPlayStation will there be an option for a name change anytime soon?",
+        "historical_brand_reply": "Hi. There is no information to share at the moment. Please submit your feedback and ideas, here:",
+        "similarity_score": 0.37472077186989355,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_442071",
+        "historical_customer_text": "@AskPlayStation hi guys! where can I get help in Argentina?",
+        "historical_brand_reply": "Glad to answer. Please follow us on Twitter and let us know once you do, so we can send you a DM.",
+        "similarity_score": 0.33131951676041127,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_2337517",
+        "historical_customer_text": "@AskPlayStation hi can u guys help me",
+        "historical_brand_reply": "Hi there. Let's look into that. Please check your DM's for further instructions.",
+        "similarity_score": 0.33131951676041127,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi. There is no information to share at the moment. Please submit your feedback and ideas, here:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0008",
+    "true_intent": "Unclear / Insufficient Information",
+    "is_followup": false,
+    "out_of_scope": true
+  },
+  {
+    "customer_text": "@AskPlayStation wtf on psn, overwatch is unplayabable",
+    "prior_context": [],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.501388814529418,
+    "message_quality": {
+      "word_count": 7,
+      "is_very_short": false,
+      "has_actionable_signal": false,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "no_actionable_request"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2948583",
+        "historical_customer_text": "@AskPlayStation @115790 wtf is this",
+        "historical_brand_reply": "Hey Scott. What seems to be the issue? Please provide us more details",
+        "similarity_score": 0.6626952493010736,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_482689",
+        "historical_customer_text": "Wtf Why? @AskPlayStation",
+        "historical_brand_reply": "That's not good. Please try deleting and re-downloading the app.",
+        "similarity_score": 0.6626952493010736,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_482701",
+        "historical_customer_text": "@AskPlayStation wtf? I can be able to start #Injustice2",
+        "historical_brand_reply": "Hey Luis. Please try the following steps related to the error code CE-32930-7:",
+        "similarity_score": 0.4601151053901708,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent",
+      "message_quality_guard:no_actionable_request"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Hey Scott. What seems to be the issue? Please provide us more details",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0066",
+    "true_intent": "Unclear / Insufficient Information",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Ps4 Account",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Main Ps4 Account"
+      },
+      {
+        "role": "brand",
+        "text": "Let us know if you have any issues so we can help you."
+      }
+    ],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.9227483730150869,
+    "message_quality": {
+      "word_count": 3,
+      "is_very_short": true,
+      "has_actionable_signal": false,
+      "is_context_dependent_terse_followup": true,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "very_short_message",
+        "no_actionable_request",
+        "context_dependent_terse_followup"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1586627",
+        "historical_customer_text": "@AskPlayStation Is this my PS4 or my account ?",
+        "historical_brand_reply": "Not good. Check out the next article to report this user:",
+        "similarity_score": 0.6546859022273889,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2868761",
+        "historical_customer_text": "@AskPlayStation Main Ps4 Account",
+        "historical_brand_reply": "Let us know if you have any issues so we can help you.",
+        "similarity_score": 0.3931503825339858,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_1437102",
+        "historical_customer_text": "@AskPlayStation I had 20$ in my PS4 account for the longest time and have not made any purchases. But it has vanished. Who do I contact?",
+        "historical_brand_reply": "That's not good. Please check your DM's for more instructions.",
+        "similarity_score": 0.3780237675097166,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "message_quality_guard:very_short_message+no_actionable_request+context_dependent_terse_followup"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Not good. Check out the next article to report this user:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0047",
+    "true_intent": "Unclear / Insufficient Information",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I need help!!",
+    "prior_context": [],
+    "predicted_intent": "Unclear / Insufficient Information",
+    "classifier_confidence": 0.7926273519397545,
+    "message_quality": {
+      "word_count": 4,
+      "is_very_short": true,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "very_short_message"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1027206",
+        "historical_customer_text": "@AskPlayStation i need your help",
+        "historical_brand_reply": "Glad to assist! Please tell us how can we help you?",
+        "similarity_score": 1.0,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_1539134",
+        "historical_customer_text": "@AskPlayStation ay I need help",
+        "historical_brand_reply": "Happy to help. Please provide us more details of the issue that you are having.",
+        "similarity_score": 1.0,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_1229160",
+        "historical_customer_text": "@117013 @117014 @AskPlayStation yoooo I need help please",
+        "historical_brand_reply": "Hey Eddie. Please try the following steps related to the error code CE-34788-0:",
+        "similarity_score": 1.0,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "unclear_intent",
+      "message_quality_guard:very_short_message"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Glad to assist! Please tell us how can we help you?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0155",
+    "true_intent": "Unclear / Insufficient Information",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Having trouble with The Frozen Wilds. Will not install. Any advice? Tried deleting and re-downloading.",
+    "prior_context": [],
+    "predicted_intent": "Downloads & Digital Content",
+    "classifier_confidence": 0.9894523323178954,
+    "message_quality": {
+      "word_count": 16,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2179316",
+        "historical_customer_text": "@AskPlayStation With some further reading, I found out that the the DLC won't work because I bought the disc here in Japan. I hope there's a patch which fixes this.",
+        "historical_brand_reply": "We have sent you a DM with more details",
+        "similarity_score": 0.650449572496338,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_2149749",
+        "historical_customer_text": "@AskPlayStation i have problem with downloading HZD:frozen wilds after it's download it will say waiting for install... And nothing else since three days like that",
+        "historical_brand_reply": "here to assist! Please power cycle your network devices and try again. Let us know the outcome.",
+        "similarity_score": 0.40426263041275284,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_482692",
+        "historical_customer_text": "@AskPlayStation I'll give it a go thanks",
+        "historical_brand_reply": "You are welcome.",
+        "similarity_score": 0.31901672112846285,
+        "predicted_intent": "Downloads & Digital Content"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "We have sent you a DM with more details",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": [
+        "boilerplate_low_specificity"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "We have sent you a DM with more details",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0165",
+    "true_intent": "Downloads & Digital Content",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation That the game is still downloading, it doesnt actually stops at 4.599. Last time i checked it was at 4.850+ but it only refreshes when i res",
+    "prior_context": [
+      {
+        "role": "brand",
+        "text": "That's odd. Are you getting an error code? Please let us know more details?"
+      },
+      {
+        "role": "customer",
+        "text": "@AskPlayStation No error code, It just stops but im guessing its just a visual glitch because when i restart my ps and try to play the game it shows +"
+      }
+    ],
+    "predicted_intent": "Error Codes & Technical Faults",
+    "classifier_confidence": 0.9446492170488995,
+    "message_quality": {
+      "word_count": 28,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1428474",
+        "historical_customer_text": "@AskPlayStation Game is still downloading, showing 1 error. Is that simply a connection hiccup, or is it a missing packet?",
+        "historical_brand_reply": "Disconnect your router from the power source and turn off your console for 3 minutes, reboot them and try again.",
+        "similarity_score": 0.3380505325328194,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1594334",
+        "historical_customer_text": "@AskPlayStation why do I\ufe0f keep getting error code 103295 whenever I\ufe0f try to play online",
+        "historical_brand_reply": "Hello Alex. Let's look into that. Do you have a PS3 or a PS4? Do you have a wired or a wireless connection? Do you see an error?",
+        "similarity_score": 0.3263810416491845,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_1337639",
+        "historical_customer_text": "@AskPlayStation what is this error code\ud83e\udd14\ud83e\udd14",
+        "historical_brand_reply": "Sure we can assist. Please try the following steps related to the error code WS-37505-0:",
+        "similarity_score": 0.2997772369645742,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Disconnect your router from the power source and turn off your console for 3 minutes, reboot them and try again.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0077",
+    "true_intent": "Downloads & Digital Content",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I am having trouble re downloading F1 2017 once it starts to download it pauses in the main menu. In the download screen it says ready to install but I can\u2019t open it. Anything I can do?",
+    "prior_context": [],
+    "predicted_intent": "Downloads & Digital Content",
+    "classifier_confidence": 0.9992613476807082,
+    "message_quality": {
+      "word_count": 38,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2337824",
+        "historical_customer_text": "@AskPlayStation I'm having trouble downloading GoatZ. I see it in my library but it has an error.",
+        "historical_brand_reply": "Sorry for the inconvenience. What is the exact error that you see?",
+        "similarity_score": 0.38461185448166973,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_2598123",
+        "historical_customer_text": "@AskPlayStation I\u2019m having trouble downloading a game but there\u2019s space available",
+        "historical_brand_reply": "Hi Mustafa. Please verify the console has as free space the double of the size of the content you are going to download.",
+        "similarity_score": 0.32168298880476853,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_336778",
+        "historical_customer_text": "@AskPlayStation I'm having trouble downloading battlefront 2 beta",
+        "historical_brand_reply": "Sure we can help! Have you tried using our Web Store?",
+        "similarity_score": 0.32167635908520714,
+        "predicted_intent": "Downloads & Digital Content"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Sorry for the inconvenience. What is the exact error that you see?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0093",
+    "true_intent": "Downloads & Digital Content",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I did that. It was in my original tweet. Maybe try reading the entire thing?",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation hi! I had a copy of Horizon Zero Dawn on my psn account. After I beat the game I deleted it. I went to download it just now and it is gone for some reason. I\u2019ve tried \u201crestore purchases\u201d but it didn\u2019t work. Help would be appreciated."
+      },
+      {
+        "role": "brand",
+        "text": "Hello Tony! Please restore licenses by following the steps in the link and try again:"
+      }
+    ],
+    "predicted_intent": "Downloads & Digital Content",
+    "classifier_confidence": 0.7438746377078986,
+    "message_quality": {
+      "word_count": 16,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2819943",
+        "historical_customer_text": "@AskPlayStation hi! I had a copy of Horizon Zero Dawn on my psn account. After I beat the game I deleted it. I went to download it just now and it is gone for some reason. I\u2019ve tried \u201crestore purchases\u201d but it didn\u2019t work. Help would be appreciated.",
+        "historical_brand_reply": "Hello Tony! Please restore licenses by following the steps in the link and try again:",
+        "similarity_score": 0.7775952022280166,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_2819948",
+        "historical_customer_text": "@AskPlayStation I did this too. This was also in the original message.",
+        "historical_brand_reply": "We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.41356453826013756,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_2200206",
+        "historical_customer_text": "@AskPlayStation I have a problem with my horizon zero dawn I bought a region all horizon zero dawn in DVD . Two days ago I bought frozen wild DLC for horizon zero dawn in my uk account and after the download I tried to install it but it rapidly says can't find the application",
+        "historical_brand_reply": "Hi there. Check out the next link for more information regarding The Frozen Wilds:",
+        "similarity_score": 0.31012029353305276,
+        "predicted_intent": "Downloads & Digital Content"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": true,
+    "candidate_reply": "Sorry to hear that didn't work. Since the usual first step didn't help, please follow us and send a Direct Message with more details so we can look into this further.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Sorry to hear that didn't work. Since the usual first step didn't help, please follow us and send a Direct Message with more details so we can look into this further.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0105",
+    "true_intent": "Downloads & Digital Content",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation No. It says it's downloading a new version, then install bar doesn't move, and then it eventually gets a pause symbol over it.",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation My Assassin's Creed Origin disk isn't installing. Powered down PS4, removed/reinserted disk. Still a no go. Help plz."
+      },
+      {
+        "role": "brand",
+        "text": "Hi Mike. Let's look into that. Do you see an error message or an error code? Please provide us more details."
+      }
+    ],
+    "predicted_intent": "Downloads & Digital Content",
+    "classifier_confidence": 0.4878823005112291,
+    "message_quality": {
+      "word_count": 24,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1183477",
+        "historical_customer_text": "@AskPlayStation My Assassin's Creed Origin disk isn't installing. Powered down PS4, removed/reinserted disk. Still a no go. Help plz.",
+        "historical_brand_reply": "Hi Mike. Let's look into that. Do you see an error message or an error code? Please provide us more details.",
+        "similarity_score": 0.6479128038028881,
+        "predicted_intent": "Downloads & Digital Content"
+      },
+      {
+        "pair_id": "AskPlayStation_2452372",
+        "historical_customer_text": "@AskPlayStation I see wc.-347431",
+        "historical_brand_reply": "Let's look into that. Please check your DM's for further instructions.",
+        "similarity_score": 0.348175193144761,
+        "predicted_intent": "Error Codes & Technical Faults"
+      },
+      {
+        "pair_id": "AskPlayStation_348592",
+        "historical_customer_text": "@AskPlayStation My bank said that the requests is coming in for $0",
+        "historical_brand_reply": "Please follow us and send us a direct message so we can assist you further.",
+        "similarity_score": 0.3418256682016028,
+        "predicted_intent": "Error Codes & Technical Faults"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hi Mike. Let's look into that. Do you see an error message or an error code? Please provide us more details.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hi Mike. Let's look into that. Do you see an error message or an error code? Please provide us more details.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0150",
+    "true_intent": "Downloads & Digital Content",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "What is playstation vue",
+    "prior_context": [],
+    "predicted_intent": "PlayStation Vue / Streaming Service",
+    "classifier_confidence": 0.9999988935405494,
+    "message_quality": {
+      "word_count": 4,
+      "is_very_short": true,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "very_short_message"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1708326",
+        "historical_customer_text": "PlayStation Vue might be the movement",
+        "historical_brand_reply": "The TV service you wish existed now exists!",
+        "similarity_score": 1.0000000000000002,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_338786",
+        "historical_customer_text": "@AskPlayStation how do I record a show on PlayStation Vue",
+        "historical_brand_reply": "Great Question! To record a show to the DVR, you add the show to \"My Favorites\". What device are you using to watch PS Vue?",
+        "similarity_score": 0.7155199797806986,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1407050",
+        "historical_customer_text": "Think I might run with playstation Vue",
+        "historical_brand_reply": "Let us be the first to welcome you to Vue! Be sure to reach out to us if you need help with anything!",
+        "similarity_score": 0.6641489837421036,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "message_quality_guard:very_short_message"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "The TV service you wish existed now exists!",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0094",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@117014 I purchased an @115821 #Firestick to use #Vue - System won't let me log in. When will this be fixed?",
+    "prior_context": [],
+    "predicted_intent": "PlayStation Vue / Streaming Service",
+    "classifier_confidence": 0.9114399782367528,
+    "message_quality": {
+      "word_count": 21,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_928154",
+        "historical_customer_text": "@AskPlayStation - I purchased a #Firestick to switch to #Vue from #DirecTV - Nothing bur problems so far. What's wrong w/ your system?",
+        "historical_brand_reply": "We're sorry to hear you are having issues! Would you be able to elaborate more on what is going on with your service?",
+        "similarity_score": 0.3104120116172816,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_888828",
+        "historical_customer_text": "@AskPlayStation Vue won't let me renew my subscription & you don't have phone support ... great start to the weekend.",
+        "historical_brand_reply": "We will be happy to help! Please follow us and send a DM for further assistance.",
+        "similarity_score": 0.3075070670320366,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1552707",
+        "historical_customer_text": "@AskPlayStation something wrong with Vue? It won't open from my PS4 but everything else works.",
+        "historical_brand_reply": "Hello! If you were experiencing difficulties logging into PS Vue, please relaunch the PS Vue app and try logging in again.",
+        "similarity_score": 0.30627297948852455,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "We're sorry to hear you are having issues! Would you be able to elaborate more on what is going on with your service?",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "We're sorry to hear you are having issues! Would you be able to elaborate more on what is going on with your service?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0125",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation how\u2019s comes every time I fast forward on PlayStation vue after I press play it\u2019s to buffer",
+    "prior_context": [],
+    "predicted_intent": "PlayStation Vue / Streaming Service",
+    "classifier_confidence": 0.9871637172503188,
+    "message_quality": {
+      "word_count": 18,
+      "is_very_short": false,
+      "has_actionable_signal": false,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": true,
+      "reasons": [
+        "no_actionable_request"
+      ]
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1764371",
+        "historical_customer_text": "@AskPlayStation Can I fast forward and rewind on-demand on Playstation vue?",
+        "historical_brand_reply": "Great question! You will be able to rewind, but not fast forward. If you DVR, then there is no fast forward restriction.",
+        "similarity_score": 0.659542338243087,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1764374",
+        "historical_customer_text": "@AskPlayStation Thank you for your prompt reply.",
+        "historical_brand_reply": "Our pleasure! Please let us know if you have any additional questions!",
+        "similarity_score": 0.6355894108273915,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1708326",
+        "historical_customer_text": "PlayStation Vue might be the movement",
+        "historical_brand_reply": "The TV service you wish existed now exists!",
+        "similarity_score": 0.4178400641869289,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      }
+    ],
+    "evidence_failure": true,
+    "evidence_failure_reasons": [
+      "message_quality_guard:no_actionable_request"
+    ],
+    "already_tried_detected": false,
+    "candidate_reply": "Great question! You will be able to rewind, but not fast forward. If you DVR, then there is no fast forward restriction.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": "evidence_failure:message_quality_guard:no_actionable_request",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0044",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@117014 my Vue is down",
+    "prior_context": [],
+    "predicted_intent": "PlayStation Vue / Streaming Service",
+    "classifier_confidence": 0.9999999954645444,
+    "message_quality": {
+      "word_count": 5,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_218556",
+        "historical_customer_text": "@AskPlayStation why can't I find Superstore on vue? :/",
+        "historical_brand_reply": "Sorry to hear that! Let's find out why. Please follow us and send us a Direct Message so we can clarify.",
+        "similarity_score": 1.0,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1365961",
+        "historical_customer_text": "@120291 Yet again @117014 Vue will not be carrying the @15636 game on FSOH. There's not even a conflict with Cavs. WHY?!?",
+        "historical_brand_reply": "We can help! Are you seeing a particular message when trying to watch your game? If so, could you provide a screenshot, please?",
+        "similarity_score": 0.8134472098821379,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_367721",
+        "historical_customer_text": "@AskPlayStation can you give some info on vue being down?",
+        "historical_brand_reply": "We can help! Is your PlayStation Vue not working? Also, you can check if PS Vue is down here.",
+        "similarity_score": 0.7017383196712805,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Sorry to hear that! Let's find out why. Please follow us and send us a Direct Message so we can clarify.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0177",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation on ps vue Cartoon Network won\u2019t pull up on live tv I tried on my Roku, Apple TV and iPhone",
+    "prior_context": [],
+    "predicted_intent": "PlayStation Vue / Streaming Service",
+    "classifier_confidence": 0.9912869491534891,
+    "message_quality": {
+      "word_count": 21,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2928027",
+        "historical_customer_text": "@AskPlayStation No it shows what\u2019s coming up hours later and won\u2019t let me watch live",
+        "historical_brand_reply": "We'd like some more information about this, please send a DM with additional info here.",
+        "similarity_score": 0.7917893785867609,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_892366",
+        "historical_customer_text": "@AskPlayStation would my PlayStation Vue work with the Apple TV 4K?",
+        "historical_brand_reply": "Thank you for clarifying! As long as the Apple TV is 4th gen running tvOS 10.0 and up, then you will be good to go!",
+        "similarity_score": 0.4685036199968901,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      },
+      {
+        "pair_id": "AskPlayStation_1149251",
+        "historical_customer_text": "@AskPlayStation how come my audio with the PlayStation vue is extremely low on my Apple TV. It\u2019s only ps vue I have the problem with.",
+        "historical_brand_reply": "We're sorry to hear that you are having audio issues! Have you powered off your device and turned it back on again?",
+        "similarity_score": 0.45270098318422436,
+        "predicted_intent": "PlayStation Vue / Streaming Service"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "We'd like some more information about this, please send a DM with additional info here.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "We'd like some more information about this, please send a DM with additional info here.",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0156",
+    "true_intent": "PlayStation Vue / Streaming Service",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I'm trying to get a refund on cod WWII help me...",
+    "prior_context": [],
+    "predicted_intent": "Purchases, Billing & Refunds",
+    "classifier_confidence": 0.7770944847160766,
+    "message_quality": {
+      "word_count": 12,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2478333",
+        "historical_customer_text": "@AskPlayStation I need a refund for CoD WWII i",
+        "historical_brand_reply": "Hey there. Please check the following article with more information about requesting a refund:",
+        "similarity_score": 0.7208233706584888,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_1571532",
+        "historical_customer_text": "@AskPlayStation I would like a refund for COD WWII, it doesn't work 50% of the time and is virtually unplayable when it does. Assist me plz.",
+        "historical_brand_reply": "Hello there. Please check the following article with more information about requesting a refund:",
+        "similarity_score": 0.5013065854996696,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_2701663",
+        "historical_customer_text": "@AskPlayStation It's saying y'all live chat is unavailable.",
+        "historical_brand_reply": "Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!",
+        "similarity_score": 0.6249751275788304,
+        "predicted_intent": "Network & Service Connectivity"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Hey there. Please check the following article with more information about requesting a refund:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Hey there. Please check the following article with more information about requesting a refund:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0033",
+    "true_intent": "Purchases, Billing & Refunds",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation I checked and havent had an email i tried to sign in on a new ps4 and it says its been banned it could be the paypal thing but not sure",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Hello my psn account seems to be banned and i dont understand why Online ID: joseph-m33-hackr Email: __email__"
+      },
+      {
+        "role": "brand",
+        "text": "Hi Joseph. Please check the email account associated with your PSN Account for further information on that matter."
+      }
+    ],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.8895834235408154,
+    "message_quality": {
+      "word_count": 32,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1224274",
+        "historical_customer_text": "@AskPlayStation Haven't gotten an email yet",
+        "historical_brand_reply": "For further assistance please follow us and send us a Direct Message, we look forward to your reply.",
+        "similarity_score": 0.5332966817731346,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_374636",
+        "historical_customer_text": "@AskPlayStation I still don\u2019t understand why.",
+        "historical_brand_reply": "For further assistance please follow us and send us a Direct Message, we look forward to your reply.",
+        "similarity_score": 0.5328310780103778,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2451905",
+        "historical_customer_text": "@AskPlayStation I have not gotten and email",
+        "historical_brand_reply": "We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.5224327881905755,
+        "predicted_intent": "Account Access & Recovery"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "For further assistance please follow us and send us a Direct Message, we look forward to your reply.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "boilerplate_low_specificity",
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0022",
+    "true_intent": "Purchases, Billing & Refunds",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation This does not work with me, because the game is European and the country is US",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Hi, I have a problem. I bought Fifa 18 points from the store, and I received a message from Playstation where the order number is. But the points have not reached me yet ?!"
+      },
+      {
+        "role": "brand",
+        "text": "Here to help! Please try Restore Licenses to refresh your purchases: and check again inside the game."
+      }
+    ],
+    "predicted_intent": "Purchases, Billing & Refunds",
+    "classifier_confidence": 0.7662515845002374,
+    "message_quality": {
+      "word_count": 17,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2682912",
+        "historical_customer_text": "@AskPlayStation Hi, I have a problem. I bought Fifa 18 points from the store, and I received a message from Playstation where the order number is. But the points have not reached me yet ?!",
+        "historical_brand_reply": "Here to help! Please try Restore Licenses to refresh your purchases: and check again inside the game.",
+        "similarity_score": 0.5819425261495965,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_2449110",
+        "historical_customer_text": "@AskPlayStation I restored my licenses on my PS4 & it still doesn\u2019t show up",
+        "historical_brand_reply": "Please check your DM's for more instructions.",
+        "similarity_score": 0.39489699449879245,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_575030",
+        "historical_customer_text": "@AskPlayStation Tried it, still no points on the account.",
+        "historical_brand_reply": "We have sent you a Direct Message via Twitter with further instructions.",
+        "similarity_score": 0.36895621923588745,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Here to help! Please try Restore Licenses to refresh your purchases: and check again inside the game.",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": false,
+      "reasons": [
+        "topic_mismatch_with_retrieved_precedent"
+      ]
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": true,
+    "final_fallback_reason": "response_safety_failure:responsiveness",
+    "generated_reply": "Thanks for reaching out. Could you share a few more details -- what device you're using and exactly what's happening -- so we can help you more precisely?",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0039",
+    "true_intent": "Purchases, Billing & Refunds",
+    "is_followup": true,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Hi, i just bought GT Sport, and I love it, but my sister can't play it when she plays on her account. Ps4 is set as primary.",
+    "prior_context": [],
+    "predicted_intent": "Purchases, Billing & Refunds",
+    "classifier_confidence": 0.6953465814506995,
+    "message_quality": {
+      "word_count": 28,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "intent_aware",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_1302544",
+        "historical_customer_text": "@AskPlayStation There is a lock next to the game icon",
+        "historical_brand_reply": "Make sure the account that has the game is activated as a primary PS4. Then try Restore Licenses:",
+        "similarity_score": 0.75064739501774,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_1365199",
+        "historical_customer_text": "@AskPlayStation I bought GT SPORT LM edition from @19859 but am missing credit and PS4 theme. It\u2019s been a week now & still no update",
+        "historical_brand_reply": "Sorry to hear that. Restore Licenses to refresh your privileges and try again:",
+        "similarity_score": 0.31983424964501994,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      },
+      {
+        "pair_id": "AskPlayStation_12324",
+        "historical_customer_text": "@AskPlayStation @117353 I bought Fortnite on the primary account, Now my sister wants to play it but can't play it on her account",
+        "historical_brand_reply": "Sorry to hear that, Please try activating the system as primary under both accounts, More details:",
+        "similarity_score": 0.31513382593253336,
+        "predicted_intent": "Purchases, Billing & Refunds"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "Make sure the account that has the game is activated as a primary PS4. Then try Restore Licenses:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "Make sure the account that has the game is activated as a primary PS4. Then try Restore Licenses:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0149",
+    "true_intent": "Purchases, Billing & Refunds",
+    "is_followup": false,
+    "out_of_scope": false
+  },
+  {
+    "customer_text": "@AskPlayStation Thanks, can you transfer purchases from an account to another?",
+    "prior_context": [
+      {
+        "role": "customer",
+        "text": "@AskPlayStation Thanks, do you have a way to merge multiple PSN accounts? I own three different accounts and media/games on all of them."
+      },
+      {
+        "role": "brand",
+        "text": "Thank you for your reply. This option is not available, the accounts cannot be merged."
+      }
+    ],
+    "predicted_intent": "Account Access & Recovery",
+    "classifier_confidence": 0.3362292009853697,
+    "message_quality": {
+      "word_count": 11,
+      "is_very_short": false,
+      "has_actionable_signal": true,
+      "is_context_dependent_terse_followup": false,
+      "is_closing_message": false,
+      "override_to_low_confidence": false,
+      "reasons": []
+    },
+    "retrieval_mode": "global",
+    "retrieved_evidence": [
+      {
+        "pair_id": "AskPlayStation_2600592",
+        "historical_customer_text": "@AskPlayStation Thanks. Could you refund the games so they can be repurchased on a different account? I moved countries 3 times, 3 different accounts and different games across all the accounts. I\u2019m baffled to hear that there\u2019s no solutions to regroup all my medias under one account!",
+        "historical_brand_reply": "You can check the refund options in the next link:",
+        "similarity_score": 0.5717644917319535,
+        "predicted_intent": "Account Access & Recovery"
+      },
+      {
+        "pair_id": "AskPlayStation_2600588",
+        "historical_customer_text": "@AskPlayStation Thanks, do you have a way to merge multiple PSN accounts? I own three different accounts and media/games on all of them.",
+        "historical_brand_reply": "Thank you for your reply. This option is not available, the accounts cannot be merged.",
+        "similarity_score": 0.5306748958406854,
+        "predicted_intent": "Unclear / Insufficient Information"
+      },
+      {
+        "pair_id": "AskPlayStation_1313230",
+        "historical_customer_text": "@AskPlayStation Hi, I have tow accounts on PS, I need all accounts different language, can I do it and how?",
+        "historical_brand_reply": "Hi there. That will depend of the language that you selected in your console, also of the region of the account.",
+        "similarity_score": 0.41101242312657804,
+        "predicted_intent": "Unclear / Insufficient Information"
+      }
+    ],
+    "evidence_failure": false,
+    "evidence_failure_reasons": [],
+    "already_tried_detected": false,
+    "candidate_reply": "You can check the refund options in the next link:",
+    "polarity_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "responsiveness_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "context_consistency_check": {
+      "passed": true,
+      "reasons": []
+    },
+    "response_safety_failure": false,
+    "final_fallback_reason": null,
+    "generated_reply": "You can check the refund options in the next link:",
+    "generation_metadata": {
+      "method": "mock_template",
+      "mock_mode": true,
+      "confidence_threshold": 0.6,
+      "weak_similarity_threshold": 0.3
+    },
+    "candidate_id": "cand_0027",
+    "true_intent": "Purchases, Billing & Refunds",
+    "is_followup": true,
+    "out_of_scope": false
+  }
+]

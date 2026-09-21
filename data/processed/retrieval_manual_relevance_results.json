@@ -1,0 +1,16 @@
+{
+  "methodology": "36 golden examples (4 per intent, stratified, seed=20260914), top-3 retrieved docs read for both 'global' and 'intent_aware' modes against the rubric below. Judgments made by Claude reading each case, NOT an independent human -- flagged as draft pending human spot-check, consistent with the golden-set labeling caveat throughout this project.",
+  "rubric": "RELEVANT = the retrieved historical resolution would give a support agent genuinely useful, applicable guidance for the customer's actual issue (matching problem type and, where it matters, the specific error code/product/defect) -- not just superficial lexical overlap.",
+  "caveat": "This is a small, manually-judged subset (n=36) intended to sanity-check the automatic same-intent proxy metric, not a replacement for it at scale.",
+  "results": {
+    "manual_recall_at_1": {"global": 0.472, "intent_aware": 0.556},
+    "manual_recall_at_3_binary_at_least_one_relevant": {"global": 0.778, "intent_aware": 0.778},
+    "manual_relevant_density_in_top3": {"global": 0.426, "intent_aware": 0.435},
+    "n": 36
+  },
+  "comparison_to_automatic_proxy": {
+    "automatic_proxy_recall_at_1": {"global": 0.532, "intent_aware": 0.676},
+    "automatic_proxy_recall_at_3": {"global": 0.798, "intent_aware": 0.771},
+    "note": "Both methods agree intent-aware clearly helps at k=1. They disagree in direction at k=3 (automatic proxy shows a small decrease, manual judgment shows no difference) -- reported honestly rather than reconciled, since they measure different things (label-match proxy vs. genuine usefulness) on different sample sizes (188 vs 36)."
+  }
+}

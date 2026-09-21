@@ -1,0 +1,5284 @@
+{
+  "global": {
+    "proxy_recall": {
+      "recall@1": 0.5319148936170213,
+      "recall@3": 0.7978723404255319,
+      "recall@5": 0.8297872340425532
+    },
+    "per_example": [
+      {
+        "candidate_id": "cand_0000",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0001",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0002",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0003",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0004",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0005",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0006",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Network & Service Connectivity",
+          "Downloads & Digital Content",
+          "Hardware / Device Malfunction",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0007",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0008",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0009",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0010",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0011",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0012",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0013",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0014",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0015",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0016",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0017",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0018",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0019",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0020",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0021",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Hardware / Device Malfunction",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0022",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Network & Service Connectivity",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0023",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0024",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0025",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0026",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0027",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0028",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0029",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0030",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0031",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0032",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0033",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0034",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0035",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0036",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0037",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0038",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0039",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0040",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0041",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0042",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0043",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0044",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0045",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0046",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0047",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0048",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0049",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Downloads & Digital Content",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0050",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0051",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0052",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0053",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0054",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "PlayStation Vue / Streaming Service",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0055",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0056",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0057",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0058",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0059",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0060",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0061",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0062",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0063",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0064",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0065",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0066",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0067",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0068",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Account Access & Recovery",
+          "Downloads & Digital Content",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0069",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0070",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0071",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0072",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0073",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0074",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0075",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0076",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0077",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Downloads & Digital Content",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0078",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Account Access & Recovery",
+          "Network & Service Connectivity",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0079",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0080",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0081",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0082",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0083",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0084",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0085",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Network & Service Connectivity",
+          "Downloads & Digital Content",
+          "Account Access & Recovery",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0086",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0087",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service",
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0088",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0089",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0090",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0091",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0092",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0093",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0094",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0095",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0096",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0097",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0098",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0099",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0100",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0101",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0102",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0103",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0104",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0105",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0106",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0107",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Account Access & Recovery",
+          "Error Codes & Technical Faults",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0108",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0109",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0110",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0111",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0112",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0113",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0114",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0115",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0116",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0117",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0118",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0119",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0120",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0121",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Network & Service Connectivity",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0122",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0124",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0125",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0126",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0127",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0128",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0129",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Downloads & Digital Content",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0130",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0131",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0132",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0133",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0134",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0135",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0136",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0137",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0138",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0139",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0140",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0141",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0142",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0143",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0144",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0145",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0146",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0147",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0148",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0149",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0150",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0151",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0152",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0153",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0154",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0155",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0156",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0157",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0158",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0159",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0160",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0161",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0162",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0163",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0164",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0165",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0166",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0167",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0168",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0169",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0170",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0171",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0172",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0173",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0174",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0175",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0176",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0177",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0178",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0179",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0180",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0181",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0182",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0183",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0184",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0185",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0186",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0187",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0188",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      }
+    ]
+  },
+  "intent_aware": {
+    "proxy_recall": {
+      "recall@1": 0.675531914893617,
+      "recall@3": 0.7712765957446809,
+      "recall@5": 0.776595744680851
+    },
+    "per_example": [
+      {
+        "candidate_id": "cand_0000",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0001",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0002",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0003",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0004",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0005",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0006",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0007",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0008",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0009",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0010",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0011",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0012",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0013",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0014",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0015",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0016",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0017",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0018",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0019",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0020",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0021",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0022",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0023",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0024",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0025",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0026",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0027",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0028",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0029",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0030",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0031",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0032",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0033",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0034",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0035",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0036",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0037",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0038",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0039",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0040",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0041",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0042",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0043",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0044",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0045",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0046",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0047",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0048",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0049",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0050",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0051",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0052",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0053",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0054",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0055",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0056",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0057",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0058",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0059",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0060",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0061",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0062",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0063",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0064",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0065",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0066",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0067",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0068",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0069",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0070",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0071",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0072",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0073",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0074",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0075",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0076",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Error Codes & Technical Faults",
+          "Network & Service Connectivity",
+          "Unclear / Insufficient Information",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0077",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0078",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0079",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0080",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0081",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0082",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0083",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0084",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0085",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0086",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0087",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0088",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0089",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0090",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0091",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0092",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0093",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0094",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0095",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0096",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0097",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0098",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0099",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0100",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0101",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0102",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0103",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0104",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0105",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0106",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0107",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0108",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0109",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Hardware / Device Malfunction",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0110",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0111",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0112",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0113",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0114",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0115",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0116",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0117",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0118",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0119",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0120",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0121",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0122",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0124",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0125",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0126",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0127",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0128",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0129",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0130",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0131",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0132",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0133",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0134",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0135",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0136",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery",
+          "Unclear / Insufficient Information",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0137",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0138",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0139",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0140",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0141",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0142",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0143",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0144",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0145",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0146",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0147",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0148",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0149",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0150",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Downloads & Digital Content",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0151",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0152",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0153",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0154",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Network & Service Connectivity",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0155",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0156",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0157",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity",
+          "Network & Service Connectivity"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0158",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0159",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0160",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0161",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0162",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0163",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0164",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "Downloads & Digital Content",
+          "Account Access & Recovery"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0165",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content",
+          "Downloads & Digital Content"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0166",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0167",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0168",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0169",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0170",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0171",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0172",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0173",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0174",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0175",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Downloads & Digital Content",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0176",
+        "true_intent": "Console Troubleshooting (Safe Mode / General Fix)",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)",
+          "Console Troubleshooting (Safe Mode / General Fix)"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0177",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0178",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0179",
+        "true_intent": "Error Codes & Technical Faults",
+        "top5_retrieved_intents": [
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults",
+          "Error Codes & Technical Faults"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0180",
+        "true_intent": "Downloads & Digital Content",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0181",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0182",
+        "true_intent": "Network & Service Connectivity",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      {
+        "candidate_id": "cand_0183",
+        "true_intent": "Unclear / Insufficient Information",
+        "top5_retrieved_intents": [
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information",
+          "Unclear / Insufficient Information"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0184",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0185",
+        "true_intent": "Account Access & Recovery",
+        "top5_retrieved_intents": [
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery",
+          "Account Access & Recovery"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0186",
+        "true_intent": "Purchases, Billing & Refunds",
+        "top5_retrieved_intents": [
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds",
+          "Purchases, Billing & Refunds"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0187",
+        "true_intent": "Hardware / Device Malfunction",
+        "top5_retrieved_intents": [
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction",
+          "Hardware / Device Malfunction"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      {
+        "candidate_id": "cand_0188",
+        "true_intent": "PlayStation Vue / Streaming Service",
+        "top5_retrieved_intents": [
+          "PlayStation Vue / Streaming Service",
+          "PlayStation Vue / Streaming Service",
+          "Downloads & Digital Content",
+          "Unclear / Insufficient Information",
+          "PlayStation Vue / Streaming Service"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      }
+    ]
+  }
+}

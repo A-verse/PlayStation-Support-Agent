@@ -1,0 +1,127 @@
+{
+  "manifest_summary": {
+    "brand": "AskPlayStation",
+    "raw_csv": "data/raw/twcs.csv",
+    "seed": 42,
+    "context_turns": 2,
+    "lang_filter_applied": true,
+    "counts": {
+      "raw_pairs_reconstructed": 17951,
+      "exact_duplicates_removed": 256,
+      "pairs_after_dedup": 17695,
+      "near_empty_replies_le4_words": 237,
+      "language_distribution": {
+        "en": 15995,
+        "es": 1064,
+        "pt": 544,
+        "tl": 35,
+        "it": 17,
+        "fr": 8,
+        "id": 7,
+        "et": 5,
+        "nl": 3,
+        "sv": 2,
+        "vi": 2,
+        "hr": 2,
+        "so": 2,
+        "ca": 2,
+        "de": 2,
+        "da": 1,
+        "af": 1,
+        "tr": 1,
+        "sl": 1,
+        "cs": 1
+      },
+      "english_pairs": 15995,
+      "non_english_pairs": 1700,
+      "final_pairs_after_cap": 15995,
+      "max_pairs_cap": 100000
+    },
+    "unique_conversations": {
+      "unique_customer_tweet_ids": 17695,
+      "unique_customer_author_ids": 12040
+    },
+    "date_range": {
+      "min": "2014-07-14 17:27:18+00:00",
+      "max": "2017-12-03 22:42:50+00:00"
+    },
+    "output_files": {
+      "final": "data/processed/pairs.jsonl",
+      "non_english_audit": "data/processed/pairs.non_english.jsonl"
+    }
+  },
+  "rough_topic_bucket_distribution": {
+    "account_login": 3526,
+    "network_server_status": 1604,
+    "purchase_billing": 1720,
+    "hardware": 728,
+    "unmatched_other": 7445,
+    "error_code_technical": 881,
+    "download_digital_content": 1278,
+    "redemption_codes": 1126,
+    "_total_pairs": 15995,
+    "_matched_at_least_one_bucket": 8550
+  },
+  "top_recurring_customer_issues_raw_pool": [
+    {
+      "example_text": "@AskPlayStation I need help",
+      "occurrences": 27
+    },
+    {
+      "example_text": "@AskPlayStation Thank you",
+      "occurrences": 14
+    },
+    {
+      "example_text": "@AskPlayStation I followed",
+      "occurrences": 9
+    },
+    {
+      "example_text": "@AskPlayStation I followed you",
+      "occurrences": 9
+    },
+    {
+      "example_text": "@AskPlayStation Ok thanks",
+      "occurrences": 8
+    },
+    {
+      "example_text": "@AskPlayStation please help",
+      "occurrences": 7
+    },
+    {
+      "example_text": "@AskPlayStation Just did",
+      "occurrences": 7
+    },
+    {
+      "example_text": "@AskPlayStation help please",
+      "occurrences": 7
+    },
+    {
+      "example_text": "@AskPlayStation Thank you!",
+      "occurrences": 7
+    },
+    {
+      "example_text": "@AskPlayStation still not working",
+      "occurrences": 6
+    },
+    {
+      "example_text": "@AskPlayStation Ok thank you",
+      "occurrences": 6
+    },
+    {
+      "example_text": "@AskPlayStation I did",
+      "occurrences": 6
+    },
+    {
+      "example_text": "@AskPlayStation Didn't work",
+      "occurrences": 6
+    },
+    {
+      "example_text": "@AskPlayStation help me",
+      "occurrences": 5
+    },
+    {
+      "example_text": "@AskPlayStation It didn't work",
+      "occurrences": 5
+    }
+  ]
+}
