@@ -1,6 +1,6 @@
 <table>
 <tr>
-<td width="full">
+<td width="100%">
 <img src="logo.png" alt="PlayStation Support Agent" width="120"/>
 </td>
 <td>
@@ -34,8 +34,6 @@ The application provides three views:
 | 🗺️ **What's Next**          | Completed work, known limitations and next steps            |
 
 ---
-
-## ✨ What the Agent Does
 
 ## ✨ What the Agent Does
 
