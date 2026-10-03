@@ -1,8 +1,17 @@
-<img src="logo.png" alt="PlayStation Support Agent" width="180"/>
+<table>
+<tr>
+<td width="150">
+<img src="logo.png" alt="PlayStation Support Agent" width="120"/>
+</td>
+<td>
 
 # 🎮 PlayStation Support Agent
 
-### AI-Powered Customer Support Agent | Hiver SDE Intern Take-Home
+### AI-Powered Customer Support Agent
+
+</td>
+</tr>
+</table>
 
 An end-to-end AI customer-support pipeline inspired by the public **AskPlayStation** support dataset.
 
@@ -28,40 +37,19 @@ The application provides three views:
 
 ## ✨ What the Agent Does
 
+## ✨ What the Agent Does
+
 ```text
 Customer Message
        │
        ▼
-┌──────────────────────┐
-│ Intent Classification │
-│ TF-IDF + LogReg      │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Evidence Retrieval   │
-│ TF-IDF Similarity    │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Grounded Reply       │
-│ Generation           │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Response Safety      │
-│ Checks               │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Escalation Engine    │
-│ + Reason Codes       │
-└──────────┬───────────┘
-           │
-      ┌────┴────┐
-      ▼         ▼
- Auto-handle  Escalate
+┌──────────┐ → ┌───────────┐ → ┌──────────┐ → ┌────────┐ → ┌────────────┐
+│  Intent  │   │ Retrieval │   │ Grounded │   │ Safety │   │ Escalation │
+│ TF-IDF + │   │   TF-IDF  │   │   Reply  │   │ Checks │   │  + Reasons │
+│ LogReg   │   │ Similarity│   │Generation│   │        │   │            │
+└──────────┘   └───────────┘   └──────────┘   └────────┘   └─────┬──────┘
+                                                                  │
+                                                           ┌──────┴──────┐
+                                                           ▼             ▼
+                                                      AUTO-HANDLE     ESCALATE
 ```
