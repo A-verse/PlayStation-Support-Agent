@@ -1,3 +1,5 @@
+<img src="logo.png" alt="PlayStation Support Agent" width="180"/>
+
 # 🎮 PlayStation Support Agent
 
 ### AI-Powered Customer Support Agent | Hiver SDE Intern Take-Home
@@ -16,11 +18,11 @@ The system takes a customer message, identifies the issue, retrieves relevant hi
 
 The application provides three views:
 
-| Tab | What it shows |
-|---|---|
-| 💬 **Try the Agent** | Run real customer queries through the complete pipeline |
+| Tab                         | What it shows                                               |
+| --------------------------- | ----------------------------------------------------------- |
+| 💬 **Try the Agent**        | Run real customer queries through the complete pipeline     |
 | 📊 **Evaluation Dashboard** | Classification, retrieval, safety and escalation evaluation |
-| 🗺️ **What's Next** | Completed work, known limitations and next steps |
+| 🗺️ **What's Next**          | Completed work, known limitations and next steps            |
 
 ---
 
@@ -30,35 +32,36 @@ The application provides three views:
 Customer Message
        │
        ▼
-┌─────────────────────┐
-│ Intent Classification│
+┌──────────────────────┐
+│ Intent Classification │
 │ TF-IDF + LogReg      │
-└──────────┬──────────┘
+└──────────┬───────────┘
            │
            ▼
-┌─────────────────────┐
+┌──────────────────────┐
 │ Evidence Retrieval   │
 │ TF-IDF Similarity    │
-└──────────┬──────────┘
+└──────────┬───────────┘
            │
            ▼
-┌─────────────────────┐
+┌──────────────────────┐
 │ Grounded Reply       │
 │ Generation           │
-└──────────┬──────────┘
+└──────────┬───────────┘
            │
            ▼
-┌─────────────────────┐
+┌──────────────────────┐
 │ Response Safety      │
 │ Checks               │
-└──────────┬──────────┘
+└──────────┬───────────┘
            │
            ▼
-┌─────────────────────┐
+┌──────────────────────┐
 │ Escalation Engine    │
 │ + Reason Codes       │
-└──────────┬──────────┘
+└──────────┬───────────┘
            │
       ┌────┴────┐
       ▼         ▼
-  Auto-handle  Escalate
+ Auto-handle  Escalate
+```
