@@ -1,6 +1,6 @@
 <table>
 <tr>
-<td width="150">
+<td width="full">
 <img src="logo.png" alt="PlayStation Support Agent" width="120"/>
 </td>
 <td>
