@@ -418,3 +418,36 @@ framework's own responsive behavior.
 **Added a third "What's Next" tab** reading directly from `REPORT.md`'s
 "one more week" section (not a separately maintained copy), so the roadmap
 shown in the UI can't drift out of sync with the written report.
+
+## 22. API layer: FastAPI wrapping the existing Agent, SQLite now with a documented Postgres path
+**Chose:** A separate `api/` package (database.py, db_models.py, schemas.py,
+dependencies.py, main.py) that imports `Agent` from `src/` unchanged --
+zero modifications to any file under `src/` or `app.py`.
+**Database choice:** SQLite by default, `DATABASE_URL` env-var configurable.
+SQLAlchemy's ORM layer is database-agnostic, so the models/queries don't
+change when the URL does -- only a connection string. Standing up real
+Postgres now would mean a running service and deployment config, explicitly
+out of scope for this slice.
+**Schemas were derived from a live pipeline run, not read from code alone:**
+every Pydantic field in `api/schemas.py` was checked against an actual
+`Agent.handle()` JSON dump before being written, specifically to avoid
+fabricating or guessing field names/types.
+**Agent singleton via a real Depends() seam, not a bare function call:**
+initially wired `get_agent()` as a plain function call inside the route
+body, which would have made `app.dependency_overrides` silently not work
+for it (FastAPI only intercepts things declared via `Depends(...)` in a
+route signature). Caught this before shipping the test that relies on
+exactly that override (`test_pipeline_failure_returns_safe_error_without_
+leaking_internals`) and fixed it to a proper `agent_dependency()` wrapper
+declared via `Depends(...)`.
+**Error handling:** every exception path logs full detail server-side
+(`logger.exception(...)`) and returns only a generic `{"error", "detail"}`
+body to the client -- verified by a test that deliberately raises an
+exception containing a fake file path and a "secret" string, then asserts
+neither appears anywhere in the HTTP response.
+**Transactional persistence:** ticket + escalation decision + audit record
+are added to the session and committed together in one transaction; a
+failure partway through rolls back rather than leaving a partial ticket row.
+**Known limitation:** this slice is genuinely synchronous -- documented as
+such in the API's own `/health` response and docstrings, not described as
+async/background processing anywhere, per explicit instruction.
