@@ -215,19 +215,6 @@ The deployed Streamlit application provides three views:
 
 ---
 
-## 🧪 Evaluation Coverage
-
-The evaluation suite measures the system at multiple stages rather than evaluating only the final response.
-
-| Component                 | Evaluation                      |
-| ------------------------- | ------------------------------- |
-| **Intent Classification** | Accuracy + Macro F1             |
-| **Retrieval**             | Recall@1 + Recall@3             |
-| **Response Safety**       | Safety evaluation set           |
-| **Escalation**            | Accuracy, Precision, Recall, F1 |
-| **End-to-End Agent**      | Pipeline behaviour              |
-| **REST API**              | Endpoint tests                  |
-
 ### Current Evaluation Set
 
 **188** golden evaluation examples · **9** intent categories · **45** safety examples · **12/12** escalation tests passing
@@ -240,33 +227,13 @@ Additional human validation and LLM-as-a-Judge evaluation are planned.
 
 ```text
 PlayStation-Support-Agent/
-│
-├── api/
-│   ├── database.py
-│   ├── db_models.py
-│   ├── dependencies.py
-│   ├── main.py
-│   └── schemas.py
-│
-├── src/
-│   ├── agent.py
-│   ├── classifier.py
-│   ├── retrieval.py
-│   ├── reply_generator.py
-│   ├── safety.py
-│   ├── escalation.py
-│   ├── llm_providers.py
-│   └── evaluation.py
-│
-├── tests/
-├── app.py
+├── api/          # FastAPI service
+├── src/          # Agent pipeline
+├── tests/        # Evaluation & API tests
+├── app.py        # Streamlit interface
 ├── REPORT.md
 ├── REVIEW_GUIDE.md
-├── decision_log.md
-├── requirements.txt
-├── .env.example
-├── logo.png
-└── README.md
+└── requirements.txt
 
 ```
 
@@ -279,47 +246,33 @@ PlayStation-Support-Agent/
 
 ### 1. Clone
 
-```bash
+bash
 git clone https://github.com/A-verse/PlayStation-Support-Agent.git
 cd PlayStation-Support-Agent
 
 2. Create Environment
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
 
 3. Configure Environment
-Create a .env file:
-LLM_PROVIDER=gemini
-GEMINI_API_KEY=your_api_key
-REPLY_GEN_MODEL=gemini-3.7-flash
+   Create a .env file:
+   LLM_PROVIDER=gemini
+   GEMINI_API_KEY=your_api_key
+   REPLY_GEN_MODEL=gemini-3.7-flash
 
 Never commit .env or API keys to the repository.
 
 4. Run the Application
-streamlit run app.py
+   streamlit run app.py
 
 5. Run the API
-uvicorn api.main:app --reload
+   uvicorn api.main:app --reload
 
 6. Run Tests
-pytest -q
+   pytest -q
+
 ```
-````
-
----
-
-## 🧭 Design Principles
-
-<table width="100%" border="0">
-<tr>
-<td width="20%" align="center"><b>Ground First</b><br><sub>Evidence before generation</sub></td>
-<td width="20%" align="center"><b>Fail Closed</b><br><sub>Uncertainty triggers escalation</sub></td>
-<td width="20%" align="center"><b>Stay Auditable</b><br><sub>Decisions have explicit reasons</sub></td>
-<td width="20%" align="center"><b>Measure Honestly</b><br><sub>Limitations remain visible</sub></td>
-<td width="20%" align="center"><b>Build Modularly</b><br><sub>Components evolve independently</sub></td>
-</tr>
-</table>
 
 ---
 
@@ -338,22 +291,6 @@ pytest -q
 
 ---
 
-## 🗺️ Roadmap
-
-### 📊 Evaluation
-
-Human golden-set review · Human-review agreement · Retrieval validation · Live LLM quality evaluation · Threshold tuning
-
-### ⚙️ Product
-
-Authentication · Rate limiting · Async processing · Background workers · Human-agent overrides · Production database
-
-### 🧠 Model
-
-Better weak labels · Hardware retrieval improvements · Confidence calibration · Expanded safety evaluation · Alternative retrieval methods
-
----
-
 ## 📚 Documentation
 
 | Document                             | Purpose                                |
@@ -362,7 +299,6 @@ Better weak labels · Hardware retrieval improvements · Confidence calibration 
 | [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md) | Reviewer walkthrough                   |
 | [`decision_log.md`](decision_log.md) | Architecture and engineering decisions |
 
----
 
 ---
 
@@ -371,3 +307,5 @@ Better weak labels · Hardware retrieval improvements · Confidence calibration 
   <br><br>
   Made by <b>A-verse</b>
 </p>
+```
+````
