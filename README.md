@@ -241,9 +241,7 @@ PlayStation-Support-Agent/
 
 ## ⚙️ Setup & Run
 
-````markdown
-## ⚙️ Setup & Run
-
+```markdown
 ### 1. Clone
 
 bash
@@ -271,6 +269,7 @@ Never commit .env or API keys to the repository.
 
 6. Run Tests
    pytest -q
+```
 
 ---
 
