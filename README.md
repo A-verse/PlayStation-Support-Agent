@@ -55,7 +55,7 @@ flowchart LR
 <table width="100%" border="0">
 <tr>
 
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
 ### 📊 Evaluation Snapshot
 
@@ -70,7 +70,7 @@ flowchart LR
 
 </td>
 
-<td width="50%" valign="middle">
+<td width="75%" valign="middle">
 
 <img src="./evaluation.png" width="100%">
 
