@@ -303,5 +303,3 @@ Never commit .env or API keys to the repository.
   <br><br>
   Made by <b>A-verse</b>
 </p>
-```
-````
