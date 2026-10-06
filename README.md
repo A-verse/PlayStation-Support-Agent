@@ -272,8 +272,6 @@ Never commit .env or API keys to the repository.
 6. Run Tests
    pytest -q
 
-```
-
 ---
 
 ## 🚧 Known Limitations
@@ -298,7 +296,6 @@ Never commit .env or API keys to the repository.
 | [`REPORT.md`](REPORT.md)             | Detailed project report                |
 | [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md) | Reviewer walkthrough                   |
 | [`decision_log.md`](decision_log.md) | Architecture and engineering decisions |
-
 
 ---
 
