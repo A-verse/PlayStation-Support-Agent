@@ -1,356 +1,246 @@
-<img src="logo.png" alt="PlayStation Support Agent" width="120"/>
+# PlayStation Support Agent
 
-# 🎮 PlayStation Support Agent
+**Grounded AI Customer Support**  
+Classify → Retrieve → Generate → Validate → Escalate
 
-### Grounded AI Customer Support · Hiver SDE Intern Take-Home
+<p>
+   An auditable AI customer support agent designed to handle customer queries through a complete support pipeline: intent classification, evidence retrieval, grounded response generation, response safety validation, and human escalation. Built with TF-IDF and Logistic Regression for intent classification, similarity-based retrieval over public customer-support data, Gemini for contextual response generation, and Streamlit for an interactive support experience and evaluation dashboard. The system is designed to prioritize grounded answers, transparent decisions, and safe escalation rather than blindly generating responses.
+</p>
 
-> An auditable AI support agent that classifies customer issues, retrieves
-> historical evidence, generates grounded replies, validates response safety,
-> and decides whether a case should be auto-handled or escalated.
-
-[🚀 Live Demo](https://playstation-support-agent.streamlit.app/) ·
-[📖 Project Report](REPORT.md) ·
-[🧪 Review Guide](REVIEW_GUIDE.md)
-
----
-
-## ✨ Overview
-
-**PlayStation Support Agent** is an end-to-end AI customer-support system built
-around the public **AskPlayStation** support data from Kaggle's
-**Customer Support on Twitter** dataset.
-
-The system is designed around one principle:
-
-> **Ground before generating.**
-
-Instead of allowing an LLM to freely answer a customer, the pipeline first
-classifies the issue, retrieves relevant historical support evidence, generates
-a grounded response, checks that response for safety, and finally determines
-whether the case can be handled automatically or should be escalated.
-
-The project is intentionally auditable: every major stage is independently
-testable and evaluated, and known limitations are explicitly documented.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 ---
 
-## 🚀 Live Demo
+## ✨ At a Glance
 
-### [▶ Try the deployed Streamlit app](https://playstation-support-agent.streamlit.app/)
-
-The application provides three views:
-
-| View                        | Purpose                                                          |
-| --------------------------- | ---------------------------------------------------------------- |
-| 💬 **Try the Agent**        | Run customer queries through the complete pipeline               |
-| 📊 **Evaluation Dashboard** | Inspect classification, retrieval, safety and escalation results |
-| 🗺️ **What's Next**          | Review completed work, limitations and planned improvements      |
+<table width="100%" border="0">
+<tr>
+<td align="center" width="25%"><b>🧠 Classification</b><br><sub>TF-IDF + Logistic Regression</sub></td>
+<td align="center" width="25%"><b>🔎 Retrieval</b><br><sub>Intent-aware TF-IDF</sub></td>
+<td align="center" width="25%"><b>🤖 Generation</b><br><sub>Grounded LLM + Fallback</sub></td>
+<td align="center" width="25%"><b>🛡️ Safety</b><br><sub>Fail-closed Validation</sub></td>
+<td align="center" width="25%"><b>🚨 Escalation</b><br><sub>Confidence + Evidence</sub></td>
+</tr>
+<tr>
+<td align="center"><b>🌐 API</b><br><sub>FastAPI</sub></td>
+<td align="center"><b>💻 UI</b><br><sub>Streamlit</sub></td>
+<td align="center"><b>🗄️ Database</b><br><sub>SQLite</sub></td>
+<td align="center"><b>🧪 Evaluation</b><br><sub>Multi-stage</sub></td>
+<td align="center"><b>⚡ Architecture</b><br><sub>Auditable Pipeline</sub></td>
+</tr>
+</table>
 
 ---
 
-## 🧠 How It Works
+## 🔄 How It Works
+
+```mermaid
+flowchart LR
+    A["Customer<br/>Message"] --> B["Intent<br/>Classification"]
+    B --> C["Evidence<br/>Retrieval"]
+    C --> D["Grounded<br/>Generation"]
+    D --> E["Safety<br/>Validation"]
+    E --> F["Escalation<br/>Decision"]
+    F --> G["✓ Auto-Handle"]
+    F --> H["⚠ Escalate"]
+```
+
+---
+
+<table width="100%" border="0">
+<tr>
+
+<td width="50%" valign="top">
+
+### 📊 Evaluation Snapshot
+
+| Metric              |    Result |
+| ------------------- | --------: |
+| Intent Accuracy     | **76.1%** |
+| Intent Macro F1     | **0.760** |
+| Retrieval Recall@1  | **53.2%** |
+| Retrieval Recall@3  | **79.8%** |
+| Escalation Accuracy | **70.0%** |
+| Escalation F1       |  **0.55** |
+
+</td>
+
+<td width="50%" valign="middle">
+
+<img src="./evaluation.png" width="100%">
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## 🧠 Intent Classification
+
+The agent first identifies the type of customer issue using **TF-IDF + Logistic Regression**.
+
+It classifies incoming tickets into **9 support intents**:
+
+`account_access` · `billing_payment` · `console_hardware` · `game_software` · `network_connectivity` · `subscription_services` · `refund_cancellation` · `security_compromise` · `out_of_scope`
+
+The classifier is evaluated separately from the training data to measure its ability to generalize to unseen support queries.
+
+**Intent Accuracy:** `76.1%`  
+**Macro F1:** `0.760`
+
+---
+
+---
+
+## 🔎 Evidence Retrieval
+
+Once the ticket intent is identified, the agent retrieves relevant historical support conversations from the public **AskPlayStation customer-support dataset**.
+
+The retrieval layer combines **TF-IDF similarity** with **intent-aware filtering** to find the most relevant evidence for the incoming query.
+
+### Retrieval Strategy
 
 ```text
-                     ┌─────────────────────┐
-                     │   Customer Message  │
-                     └──────────┬──────────┘
-                                │
-                                ▼
-              ┌────────────────────────────┐
-              │ Intent Classification      │
-              │ TF-IDF + Logistic Reg.     │
-              └────────────┬───────────────┘
-                           │
-                           ▼
-              ┌────────────────────────────┐
-              │ Evidence Retrieval         │
-              │ TF-IDF + Intent-aware      │
-              └────────────┬───────────────┘
-                           │
-                           ▼
-              ┌────────────────────────────┐
-              │ Grounded Reply Generation  │
-              │ Mock / Live LLM            │
-              └────────────┬───────────────┘
-                           │
-                           ▼
-              ┌────────────────────────────┐
-              │ Response Safety            │
-              │ Fail-closed checks         │
-              └────────────┬───────────────┘
-                           │
-                           ▼
-              ┌────────────────────────────┐
-              │ Escalation Engine          │
-              │ Explicit reason codes      │
-              └────────────┬───────────────┘
-                           │
-                    ┌──────┴──────┐
-                    ▼             ▼
-                AUTO-HANDLE    ESCALATE
-
-📊 Evaluation Snapshot
-Metric	Result
-Intent Accuracy	76.1%
-Intent Macro F1	0.760
-Retrieval Recall@1	53.2%
-Retrieval Recall@3	79.8%
-Escalation Accuracy	70.0%
-Escalation F1	0.55
-Golden Evaluation Set	188 examples
-Intent Categories	9
-Escalation Tests	12/12 passing
-
-
-🔍 Intent Classification
-The agent uses a TF-IDF + Logistic Regression classifier to route incoming
-customer messages into one of 9 support intents.
-The classifier was trained on weak/silver labels generated from the source
-dataset. The evaluation set is kept separate from training and retrieval.
-Supported Intents
-Intent	Description
-account_access	Login, account access and authentication issues
-billing_payment	Charges, payments and billing-related issues
-console_hardware	Console hardware and device problems
-game_software	Game installation, launch and software issues
-network_connectivity	Internet, connection and online-service problems
-subscription_services	PlayStation Plus and subscription-related issues
-refund_cancellation	Refund, cancellation and purchase-reversal requests
-security_compromise	Account security and suspicious-access concerns
-out_of_scope	Requests outside the supported support domain
-
-
-Classifier Evaluation
-- Accuracy: 76.1%
-- Macro F1: 0.760
-- Training labels: weak/silver labels
-- Evaluation: stratified held-out evaluation set
-- Human validation: not yet completed
-The classifier numbers should be interpreted as an engineering baseline,
-because the training labels are not manually verified ground truth.
-
-🔎 Retrieval
-After classification, the agent retrieves relevant historical support
-examples using TF-IDF similarity.
-The retrieval stage is intentionally separated from the classifier so that
-the generated response can be grounded in actual historical support evidence.
-Retrieval Flow
 Customer Query
-      │
-      ▼
-Predicted Intent
-      │
-      ▼
-TF-IDF Vectorization
-      │
-      ▼
-Similarity Search
-      │
-      ▼
-Top-K Historical Examples
-      │
-      ▼
-Relevant Evidence
+      ↓
+Intent Context
+      ↓
+TF-IDF Similarity Search
+      ↓
+Top-K Relevant Evidence
+      ↓
+Grounded Response Generation
+```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+---
 
-🤖 Grounded Reply
-Retrieved support evidence is passed to the response generator.
-Generation rules
-- Stay grounded in retrieved evidence
-- No unsupported policies, refunds or guarantees
-- Don't expose internal system details
-- Don't repeat already-tried fixes
-- Ask for clarification when evidence is weak
-- Keep responses concise
-Evidence
-   ↓
-Prompt
-   ↓
-LLM
-   ↓
-Response
+---
 
-Modes: Mock / Template · Live LLM
-If live generation is unavailable, the system uses a safe deterministic
-fallback instead of fabricating an answer.
-</td>
+## 🤖 Grounded Response Generation
 
-<td width="50%" valign="top">
+The response generator combines the retrieved support evidence with explicit grounding rules to produce a concise customer-facing response.
 
-🛡️ Response Safety
-Every generated response passes through safety checks.
-Checks include
+The system is designed to:
+
+- Use retrieved evidence as the primary context
+- Avoid unsupported policies, refunds, or guarantees
+- Avoid repeating troubleshooting steps already attempted
+- Ask for clarification when available evidence is insufficient
+- Keep responses concise and support-oriented
+- Fall back to deterministic templates when live generation is unavailable
+
+### Generation Modes
+
+| Mode                | Purpose                              |
+| ------------------- | ------------------------------------ |
+| **Mock / Template** | Deterministic local fallback         |
+| **Live LLM**        | Gemini-powered contextual generation |
+
+---
+
+## 🛡️ Safety & Escalation
+
+Before a response reaches the customer, it passes through a **fail-closed safety layer**.
+
+The system checks for:
+
+- Missing or weak supporting evidence
 - Unsupported claims
-- Weak or missing evidence
-- Risky responses
-- Sensitive-request handling
-- Cases requiring escalation
-Response
-   ↓
-Safety Check
- ┌─┴─┐
-PASS FAIL
- │    │
- ↓    ↓
-Next Fallback
+- Risky or sensitive requests
+- Insufficient confidence
+- Cases requiring human intervention
 
-45 safety evaluation examples
-</td>
-</tr>
-</table>
+If a response fails validation or the case is uncertain, the system does not blindly generate an answer. Instead, it produces an explicit **escalation decision with a reason code**.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```text
+Generated Response
+        ↓
+   Safety Checks
+        ↓
+   ┌────┴────┐
+   ↓         ↓
+  Safe     Unsafe /
+   ↓       Uncertain
+Auto-Handle    ↓
+            Escalate
+```
 
-🚨 Escalation Engine
-The final decision determines whether a ticket can be auto-handled or needs
-human review.
-Auto-Handle	Escalate
-High confidence	Low confidence
-Useful evidence	Insufficient evidence
-Safety passed	Safety failure
-Supported request	Sensitive / out-of-scope
+---
 
+## 🌐 REST API
 
-Every escalation includes explicit reason codes.
-Metric	Score
-Accuracy	70.0%
-Precision	62.0%
-Recall	49.0%
-F1	0.55
+The agent is exposed through a lightweight **FastAPI** service for programmatic ticket processing.
 
+| Method | Endpoint        | Purpose                     |
+| ------ | --------------- | --------------------------- |
+| `GET`  | `/health`       | Check service health        |
+| `POST` | `/tickets`      | Submit and process a ticket |
+| `GET`  | `/tickets/{id}` | Retrieve a processed ticket |
 
-</td>
+### Processing Flow
 
-<td width="50%" valign="top">
-
-🧪 Evaluation & Testing
-Independent evaluation covers:
-- Intent classification
-- Retrieval Recall@K
-- Response safety
-- Escalation metrics
-- Escalation tests
-- End-to-end pipeline
-- API endpoints
-LLM-as-a-judge, human-review agreement and golden-set human sign-off
-are still pending.
-
-</td>
-</tr>
-</table>
-
-🔄 End-to-End Pipeline
-Customer Query
-      │
-      ▼
-Intent Classification
-(TF-IDF + Logistic Regression)
-      │
-      ▼
-Evidence Retrieval
-(TF-IDF + Intent-aware)
-      │
-      ▼
-Grounded LLM Reply
-      │
-      ▼
-Safety Checks
-      │
-      ▼
-Escalation + Reason Codes
-      │
-   ┌──┴───┐
-   ▼      ▼
-HANDLE  ESCALATE
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-🌐 REST API
-Method	Endpoint	Purpose
-GET	/health	Service health
-POST	/tickets	Process ticket
-GET	/tickets/{id}	Retrieve ticket
-
-
+```text
 POST /tickets
       ↓
-Classify → Retrieve → Generate
+Agent Pipeline
+      ↓
+Classification → Retrieval → Generation
       ↓
 Safety → Escalation
       ↓
-Persist
+Stored Ticket + Decision
+```
 
-Processing: Synchronous
-Database: SQLite by default
-Config: DATABASE_URL
-</td>
+---
 
-<td width="50%" valign="top">
+---
 
-⚙️ Local Setup
-git clone https://github.com/A-verse/PlayStation-Support-Agent.git
-cd PlayStation-Support-Agent
+## 🖥️ Live Demo
 
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+The deployed Streamlit application provides three views:
 
-pip install -r requirements.txt
+| View                     | Purpose                                                   |
+| ------------------------ | --------------------------------------------------------- |
+| **Try the Agent**        | Submit a customer query and inspect the complete decision |
+| **Evaluation Dashboard** | Explore system and model evaluation metrics               |
+| **What's Next**          | Review limitations and future improvements                |
 
-Create .env:
-LLM_PROVIDER=gemini
-GEMINI_API_KEY=your_api_key
-REPLY_GEN_MODEL=gemini-3.7-flash
+[![🚀 Open Live Demo](https://img.shields.io/badge/🚀%20Open%20Live%20Demo-6C5CE7?style=for-the-badge)](https://playstation-support-agent.streamlit.app/)
 
-Never commit .env.
+---
 
-</td>
-</tr>
-</table>
+## 🧪 Evaluation Coverage
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The evaluation suite measures the system at multiple stages rather than evaluating only the final response.
 
-▶️ Run
-Streamlit
-streamlit run app.py
+| Component                 | Evaluation                      |
+| ------------------------- | ------------------------------- |
+| **Intent Classification** | Accuracy + Macro F1             |
+| **Retrieval**             | Recall@1 + Recall@3             |
+| **Response Safety**       | Safety evaluation set           |
+| **Escalation**            | Accuracy, Precision, Recall, F1 |
+| **End-to-End Agent**      | Pipeline behaviour              |
+| **REST API**              | Endpoint tests                  |
 
-http://localhost:8501
-FastAPI
-uvicorn api.main:app --reload
+### Current Evaluation Set
 
-http://127.0.0.1:8000
-Tests
-pytest -q
+**188** golden evaluation examples · **9** intent categories · **45** safety examples · **12/12** escalation tests passing
 
-</td>
+Additional human validation and LLM-as-a-Judge evaluation are planned.
 
-<td width="50%" valign="top">
+---
 
-🧩 Design Principles
-Ground before generating
-Evidence constrains the response.
-Fail closed
-Uncertainty leads to fallback or escalation.
-Auditable decisions
-Each stage produces inspectable outputs.
-Honest evaluation
-Weak labels and validation gaps are documented.
-Modular architecture
-Components can be evaluated independently.
-</td>
-</tr>
-</table>
+## 📁 Project Structure
 
-📁 Project Structure
+```text
 PlayStation-Support-Agent/
+│
 ├── api/
 │   ├── database.py
 │   ├── db_models.py
@@ -378,77 +268,102 @@ PlayStation-Support-Agent/
 ├── logo.png
 └── README.md
 
-<table>
+```
+
+---
+
+## ⚙️ Setup & Run
+
+````markdown
+## ⚙️ Setup & Run
+
+### 1. Clone
+
+```bash
+git clone https://github.com/A-verse/PlayStation-Support-Agent.git
+cd PlayStation-Support-Agent
+
+2. Create Environment
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+3. Configure Environment
+Create a .env file:
+LLM_PROVIDER=gemini
+GEMINI_API_KEY=your_api_key
+REPLY_GEN_MODEL=gemini-3.7-flash
+
+Never commit .env or API keys to the repository.
+
+4. Run the Application
+streamlit run app.py
+
+5. Run the API
+uvicorn api.main:app --reload
+
+6. Run Tests
+pytest -q
+```
+````
+
+---
+
+## 🧭 Design Principles
+
+<table width="100%" border="0">
 <tr>
-<td width="50%" valign="top">
-
-🚧 Known Limitations
-- Golden-set human sign-off pending
-- Retrieval human validation pending
-- LLM-as-a-judge pending
-- Human-review agreement unavailable
-- Hardware retrieval needs improvement
-- Escalation performance can improve
-- No authentication / rate limiting
-- Synchronous ticket processing
-- No background queue / retry worker
-- No real PlayStation account/order/payment integration
-</td>
-
-<td width="50%" valign="top">
-
-🗺️ What's Next
-Evaluation
-- Human golden-set review
-- Human-review agreement
-- Retrieval validation
-- Live LLM quality evaluation
-- Threshold tuning
-Product
-- Authentication & rate limiting
-- Async processing
-- Background workers
-- Human-agent overrides
-- Production database
-Model
-- Better weak labels
-- Hardware retrieval
-- Confidence calibration
-- Expanded safety evaluation
-- Alternative retrieval methods
-</td>
+<td width="20%" align="center"><b>Ground First</b><br><sub>Evidence before generation</sub></td>
+<td width="20%" align="center"><b>Fail Closed</b><br><sub>Uncertainty triggers escalation</sub></td>
+<td width="20%" align="center"><b>Stay Auditable</b><br><sub>Decisions have explicit reasons</sub></td>
+<td width="20%" align="center"><b>Measure Honestly</b><br><sub>Limitations remain visible</sub></td>
+<td width="20%" align="center"><b>Build Modularly</b><br><sub>Components evolve independently</sub></td>
 </tr>
 </table>
 
-📚 Documentation
-Document	Purpose
-[`REPORT.md`](REPORT.md)	Technical report & evaluation
-[`REVIEW_GUIDE.md`](REVIEW_GUIDE.md)	Reviewer walkthrough
-[`decision_log.md`](decision_log.md)	Engineering decisions & trade-offs
+---
 
+## 🚧 Known Limitations
 
-🎯 Assignment Context
-Built as an SDE Intern take-home project for Hiver.
-Data
-  ↓
-Classification
-  ↓
-Retrieval
-  ↓
-LLM
-  ↓
-Safety
-  ↓
-Escalation
-  ↓
-API
-  ↓
-Evaluation
+- Golden-set human sign-off is pending
+- Retrieval human validation is pending
+- LLM-as-a-Judge evaluation is pending
+- Human-review agreement is currently unavailable
+- Hardware-related retrieval needs improvement
+- Escalation performance can be improved
+- No authentication or rate limiting
+- Processing is currently synchronous
+- No background queue or retry worker
+- No real PlayStation account, order, or payment integration
 
-The goal is not only to generate a plausible answer, but to build a support
-system whose decisions can be tested, inspected and challenged.
-👨‍💻 Author
-A-verse
-Python · scikit-learn · Google Gemini · Streamlit · FastAPI
-Ground before generating. · Escalate when uncertain. · Measure what matters.
-```
+---
+
+## 🗺️ Roadmap
+
+### 📊 Evaluation
+
+Human golden-set review · Human-review agreement · Retrieval validation · Live LLM quality evaluation · Threshold tuning
+
+### ⚙️ Product
+
+Authentication · Rate limiting · Async processing · Background workers · Human-agent overrides · Production database
+
+### 🧠 Model
+
+Better weak labels · Hardware retrieval improvements · Confidence calibration · Expanded safety evaluation · Alternative retrieval methods
+
+---
+
+## 📚 Documentation
+
+| Document                             | Purpose                                |
+| ------------------------------------ | -------------------------------------- |
+| [`REPORT.md`](REPORT.md)             | Detailed project report                |
+| [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md) | Reviewer walkthrough                   |
+| [`decision_log.md`](decision_log.md) | Architecture and engineering decisions |
+
+---
+
+<p align="center">
+  <sub>✦</sub> <b>A-verse</b> <sub>✦</sub>
+</p>
