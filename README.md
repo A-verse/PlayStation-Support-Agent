@@ -364,6 +364,10 @@ Better weak labels · Hardware retrieval improvements · Confidence calibration 
 
 ---
 
+---
+
 <p align="center">
-  <sub>✦</sub> <b>A-verse</b> <sub>✦</sub>
+  ⭐ <b>Don't forget to star my repositories if you find them useful!</b>
+  <br><br>
+  Made by <b>A-verse</b>
 </p>
