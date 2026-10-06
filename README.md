@@ -52,12 +52,12 @@ flowchart LR
 
 ---
 
+### 📊 Evaluation Snapshot
+
 <table width="100%" border="0">
 <tr>
 
 <td width="25%" valign="top">
-
-### 📊 Evaluation Snapshot
 
 | Metric              |    Result |
 | ------------------- | --------: |
